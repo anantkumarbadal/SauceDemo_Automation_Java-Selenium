@@ -1,0 +1,4331 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 3, 2025 11:41:26 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">chrome(Incognito)</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testSuccessfulLoginUser</p>
+            <p class="text-sm">
+              <span>11:41:33 PM</span> / <span>00:00:12:568</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testSuccessfulLoginUser</h5>
+<span class='badge badge-success'>10.03.2025 11:41:33 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:41:46 PM</span>
+<span class='badge badge-default'>00:00:12:568</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify successful login with valid credentials</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:33 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:41:46 PM</td>
+        <td>
+          <span class='badge white-text green'>testSuccessfulLoginUser PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginProblemUser</p>
+            <p class="text-sm">
+              <span>11:41:49 PM</span> / <span>00:00:11:969</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginProblemUser</h5>
+<span class='badge badge-success'>10.03.2025 11:41:49 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:42:01 PM</span>
+<span class='badge badge-default'>00:00:11:969</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify login with problem user credentials</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:41:49 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:42:01 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginProblemUser PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginPerformanceGlitchUser</p>
+            <p class="text-sm">
+              <span>11:42:05 PM</span> / <span>00:00:17:056</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginPerformanceGlitchUser</h5>
+<span class='badge badge-success'>10.03.2025 11:42:05 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:42:22 PM</span>
+<span class='badge badge-default'>00:00:17:056</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify login with performance glitch user credentials</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:05 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:42:22 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginPerformanceGlitchUser PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testAddSingleProductToCart</p>
+            <p class="text-sm">
+              <span>11:42:38 PM</span> / <span>00:00:00:642</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testAddSingleProductToCart</h5>
+<span class='badge badge-success'>10.03.2025 11:42:38 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:42:39 PM</span>
+<span class='badge badge-default'>00:00:00:642</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify adding a single product to cart</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:38 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:42:39 PM</td>
+        <td>
+          <span class='badge white-text green'>testAddSingleProductToCart PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testAddMultipleProductsToCart</p>
+            <p class="text-sm">
+              <span>11:42:55 PM</span> / <span>00:00:00:582</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testAddMultipleProductsToCart</h5>
+<span class='badge badge-success'>10.03.2025 11:42:55 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:42:55 PM</span>
+<span class='badge badge-default'>00:00:00:582</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify adding multiple products to cart (example for another product)</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:42:55 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:42:55 PM</td>
+        <td>
+          <span class='badge white-text green'>testAddMultipleProductsToCart PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testSuccessfulProductCheckout</p>
+            <p class="text-sm">
+              <span>11:43:11 PM</span> / <span>00:00:42:932</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testSuccessfulProductCheckout</h5>
+<span class='badge badge-success'>10.03.2025 11:43:11 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:43:54 PM</span>
+<span class='badge badge-default'>00:00:42:932</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify successful product checkout flow</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:43:11 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:43:54 PM</td>
+        <td>
+          <span class='badge white-text green'>testSuccessfulProductCheckout PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testCancelCheckoutFromInformationPage</p>
+            <p class="text-sm">
+              <span>11:44:10 PM</span> / <span>00:00:20:873</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCancelCheckoutFromInformationPage</h5>
+<span class='badge badge-success'>10.03.2025 11:44:10 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:44:31 PM</span>
+<span class='badge badge-default'>00:00:20:873</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify cancelling checkout from information page</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:10 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:44:31 PM</td>
+        <td>
+          <span class='badge white-text green'>testCancelCheckoutFromInformationPage PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="8"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testInvalidLoginForScreenshot</p>
+            <p class="text-sm">
+              <span>11:44:34 PM</span> / <span>00:00:02:116</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testInvalidLoginForScreenshot</h5>
+<span class='badge badge-success'>10.03.2025 11:44:34 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:44:36 PM</span>
+<span class='badge badge-default'>00:00:02:116</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify that a screenshot is taken on failed login due to incorrect credentials</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:34 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:44:36 PM</td>
+        <td>
+          <span class='badge white-text orange'>testInvalidLoginForScreenshot SKIPPED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:44:36 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testInvalidLoginForScreenshot</p>
+            <p class="text-sm">
+              <span>11:44:40 PM</span> / <span>00:00:02:073</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testInvalidLoginForScreenshot</h5>
+<span class='badge badge-success'>10.03.2025 11:44:40 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:44:42 PM</span>
+<span class='badge badge-default'>00:00:02:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify that a screenshot is taken on failed login due to incorrect credentials</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:40 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:42 PM</td>
+        <td>
+          <span class='badge white-text red'>testInvalidLoginForScreenshot FAILED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:42 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:42 PM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/testInvalidLoginForScreenshot_20251003_234442.png' src="screenshots/testInvalidLoginForScreenshot_20251003_234442.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="10"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLockedOutUserLoginForScreenshot</p>
+            <p class="text-sm">
+              <span>11:44:46 PM</span> / <span>00:00:01:955</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testLockedOutUserLoginForScreenshot</h5>
+<span class='badge badge-success'>10.03.2025 11:44:46 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:44:48 PM</span>
+<span class='badge badge-default'>00:00:01:955</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify that a screenshot is taken when a locked out user tries to login</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:46 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:44:48 PM</td>
+        <td>
+          <span class='badge white-text orange'>testLockedOutUserLoginForScreenshot SKIPPED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:44:48 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLockedOutUserLoginForScreenshot</p>
+            <p class="text-sm">
+              <span>11:44:51 PM</span> / <span>00:00:01:950</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testLockedOutUserLoginForScreenshot</h5>
+<span class='badge badge-success'>10.03.2025 11:44:51 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:44:53 PM</span>
+<span class='badge badge-default'>00:00:01:950</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify that a screenshot is taken when a locked out user tries to login</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:51 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:53 PM</td>
+        <td>
+          <span class='badge white-text red'>testLockedOutUserLoginForScreenshot FAILED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:53 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:44:53 PM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/testLockedOutUserLoginForScreenshot_20251003_234453.png' src="screenshots/testLockedOutUserLoginForScreenshot_20251003_234453.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="12"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testFlakyLoginAttempt</p>
+            <p class="text-sm">
+              <span>11:44:57 PM</span> / <span>00:00:12:015</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">testFlakyLoginAttempt</h5>
+<span class='badge badge-success'>10.03.2025 11:44:57 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:45:09 PM</span>
+<span class='badge badge-default'>00:00:12:015</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Demonstrates RetryAnalyzer functionality - designed to fail then pass</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:44:57 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:45:09 PM</td>
+        <td>
+          <span class='badge white-text orange'>testFlakyLoginAttempt SKIPPED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:45:09 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testFlakyLoginAttempt</p>
+            <p class="text-sm">
+              <span>11:45:13 PM</span> / <span>00:00:12:233</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testFlakyLoginAttempt</h5>
+<span class='badge badge-success'>10.03.2025 11:45:13 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:45:25 PM</span>
+<span class='badge badge-default'>00:00:12:233</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Demonstrates RetryAnalyzer functionality - designed to fail then pass</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:13 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:45:25 PM</td>
+        <td>
+          <span class='badge white-text red'>testFlakyLoginAttempt FAILED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:45:25 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:45:25 PM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/testFlakyLoginAttempt_20251003_234525.png' src="screenshots/testFlakyLoginAttempt_20251003_234525.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginDataDrivenTest - User: standard_user (Expected: Success)</p>
+            <p class="text-sm">
+              <span>11:45:31 PM</span> / <span>00:00:11:887</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginDataDrivenTest - User: standard_user (Expected: Success)</h5>
+<span class='badge badge-success'>10.03.2025 11:45:31 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:45:43 PM</span>
+<span class='badge badge-default'>00:00:11:887</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Data-driven test for various login scenarios</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:31 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:45:43 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginDataDrivenTest PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginDataDrivenTest - User: locked_out_user (Expected: Failure)</p>
+            <p class="text-sm">
+              <span>11:45:47 PM</span> / <span>00:00:01:850</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginDataDrivenTest - User: locked_out_user (Expected: Failure)</h5>
+<span class='badge badge-success'>10.03.2025 11:45:47 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:45:49 PM</span>
+<span class='badge badge-default'>00:00:01:850</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Data-driven test for various login scenarios</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:47 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:45:49 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginDataDrivenTest PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginDataDrivenTest - User: problem_user (Expected: Success)</p>
+            <p class="text-sm">
+              <span>11:45:52 PM</span> / <span>00:00:12:063</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginDataDrivenTest - User: problem_user (Expected: Success)</h5>
+<span class='badge badge-success'>10.03.2025 11:45:52 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:46:05 PM</span>
+<span class='badge badge-default'>00:00:12:063</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Data-driven test for various login scenarios</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:52 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:05 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginDataDrivenTest PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginDataDrivenTest - User: performance_glitch_user (Expected: Success)</p>
+            <p class="text-sm">
+              <span>11:46:08 PM</span> / <span>00:00:16:962</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginDataDrivenTest - User: performance_glitch_user (Expected: Success)</h5>
+<span class='badge badge-success'>10.03.2025 11:46:08 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:46:25 PM</span>
+<span class='badge badge-default'>00:00:16:962</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Data-driven test for various login scenarios</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:08 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:25 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginDataDrivenTest PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testLoginDataDrivenTest - User: invalid_user (Expected: Failure)</p>
+            <p class="text-sm">
+              <span>11:46:30 PM</span> / <span>00:00:01:963</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testLoginDataDrivenTest - User: invalid_user (Expected: Failure)</h5>
+<span class='badge badge-success'>10.03.2025 11:46:30 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:46:31 PM</span>
+<span class='badge badge-default'>00:00:01:963</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Data-driven test for various login scenarios</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:30 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:31 PM</td>
+        <td>
+          <span class='badge white-text green'>testLoginDataDrivenTest PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyHamburgerMenuItems</p>
+            <p class="text-sm">
+              <span>11:46:36 PM</span> / <span>00:00:13:268</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyHamburgerMenuItems</h5>
+<span class='badge badge-success'>10.03.2025 11:46:36 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:46:50 PM</span>
+<span class='badge badge-default'>00:00:13:268</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify all items and their text in the Dashboard Hamburger Menu.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:36 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:36 PM</td>
+        <td>
+          <b>Pre-condition:</b> Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:38 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          Successfully logged in and landed on Products page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          Clicking on the Hamburger menu icon using DashboardPage POM.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          Hamburger menu opened successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          Retrieving all menu items from the Hamburger menu via DashboardPage POM.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          <b>Expected Menu Items:</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          <ol><li>All Items</li><li>About</li><li>Logout</li><li>Reset App State</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          <b>Actual Menu Items Found:</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          <ol><li>All Items</li><li>About</li><li>Logout</li><li>Reset App State</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          <b>Validation Passed:</b> Successfully verified all 4 Hamburger menu items. All items match the expected list, as displayed above.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:49 PM</td>
+        <td>
+          Closing the Hamburger menu.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:46:50 PM</td>
+        <td>
+          <span class='badge white-text green'>verifyHamburgerMenuItems PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithDynamicData - User: Standard Purchase - BackPack & Bike Light (Expected: N/A_Expected)</p>
+            <p class="text-sm">
+              <span>11:46:55 PM</span> / <span>00:00:46:003</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyPurchaseFlowWithDynamicData - User: Standard Purchase - BackPack & Bike Light (Expected: N/A_Expected)</h5>
+<span class='badge badge-success'>10.03.2025 11:46:55 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:47:41 PM</span>
+<span class='badge badge-default'>00:00:46:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow with dynamic product and checkout data.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:55 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:55 PM</td>
+        <td>
+          <b>Starting Purchase Scenario: Standard Purchase - BackPack & Bike Light</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:55 PM</td>
+        <td>
+          Products to add: [Sauce Labs Backpack, Sauce Labs Bike Light]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:55 PM</td>
+        <td>
+          Checkout Details: First Name=John, Last Name=Doe, Zip Code=12345
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:55 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:46:57 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Adding products to cart...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Added 'Sauce Labs Backpack' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Added 'Sauce Labs Bike Light' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Expected cart badge count: 2, Actual: 2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:08 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:09 PM</td>
+        <td>
+          Products in cart (Actual): [Sauce Labs Backpack, Sauce Labs Bike Light]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:09 PM</td>
+        <td>
+          Products to add (Expected): [Sauce Labs Backpack, Sauce Labs Bike Light]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:09 PM</td>
+        <td>
+          Cart items verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:09 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:19 PM</td>
+        <td>
+          Entering checkout information: John, Doe, 12345
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:20 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Verifying Checkout Overview page details...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Products in overview (Actual): [Sauce Labs Backpack, Sauce Labs Bike Light]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Checkout Overview items verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Expected Item Total: 39.98, Actual: Item total: $39.98
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Expected Tax: 3.20, Actual: Tax: $3.20
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Expected Grand Total: 43.18, Actual: Total: $43.18
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          All totals on Checkout Overview verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:30 PM</td>
+        <td>
+          Clicking 'Finish' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:41 PM</td>
+        <td>
+          Verifying order completion.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:41 PM</td>
+        <td>
+          Actual confirmation message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:41 PM</td>
+        <td>
+          <b>Purchase Flow Completed Successfully!</b> Confirmed message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:41 PM</td>
+        <td>
+          <span class='badge white-text green'>verifyPurchaseFlowWithDynamicData PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithDynamicData - User: Single Item Purchase - Bolt T-Shirt (Expected: N/A_Expected)</p>
+            <p class="text-sm">
+              <span>11:47:44 PM</span> / <span>00:00:44:404</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyPurchaseFlowWithDynamicData - User: Single Item Purchase - Bolt T-Shirt (Expected: N/A_Expected)</h5>
+<span class='badge badge-success'>10.03.2025 11:47:44 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:48:29 PM</span>
+<span class='badge badge-default'>00:00:44:404</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow with dynamic product and checkout data.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:44 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:44 PM</td>
+        <td>
+          <b>Starting Purchase Scenario: Single Item Purchase - Bolt T-Shirt</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:44 PM</td>
+        <td>
+          Products to add: [Sauce Labs Bolt T-Shirt]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:44 PM</td>
+        <td>
+          Checkout Details: First Name=Jane, Last Name=Smith, Zip Code=67890
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:45 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:46 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:56 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:56 PM</td>
+        <td>
+          Adding products to cart...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Added 'Sauce Labs Bolt T-Shirt' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Expected cart badge count: 1, Actual: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Products in cart (Actual): [Sauce Labs Bolt T-Shirt]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Products to add (Expected): [Sauce Labs Bolt T-Shirt]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Cart items verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:47:57 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:07 PM</td>
+        <td>
+          Entering checkout information: Jane, Smith, 67890
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:08 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Verifying Checkout Overview page details...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Products in overview (Actual): [Sauce Labs Bolt T-Shirt]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Checkout Overview items verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Expected Item Total: 15.99, Actual: Item total: $15.99
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Expected Tax: 1.28, Actual: Tax: $1.28
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Expected Grand Total: 17.27, Actual: Total: $17.27
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          All totals on Checkout Overview verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:18 PM</td>
+        <td>
+          Clicking 'Finish' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:29 PM</td>
+        <td>
+          Verifying order completion.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:29 PM</td>
+        <td>
+          Actual confirmation message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:29 PM</td>
+        <td>
+          <b>Purchase Flow Completed Successfully!</b> Confirmed message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:29 PM</td>
+        <td>
+          <span class='badge white-text green'>verifyPurchaseFlowWithDynamicData PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithDynamicData - User: Error Scenario - Empty Zip Code (Expected: N/A_Expected)</p>
+            <p class="text-sm">
+              <span>11:48:32 PM</span> / <span>00:00:24:451</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyPurchaseFlowWithDynamicData - User: Error Scenario - Empty Zip Code (Expected: N/A_Expected)</h5>
+<span class='badge badge-success'>10.03.2025 11:48:32 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:48:57 PM</span>
+<span class='badge badge-default'>00:00:24:451</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow with dynamic product and checkout data.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 PM</td>
+        <td>
+          <b>Starting Purchase Scenario: Error Scenario - Empty Zip Code</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 PM</td>
+        <td>
+          Products to add: [Sauce Labs Backpack]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 PM</td>
+        <td>
+          Checkout Details: First Name=Error, Last Name=User, Zip Code=
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:32 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:34 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Adding products to cart...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Added 'Sauce Labs Backpack' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Expected cart badge count: 1, Actual: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Products in cart (Actual): [Sauce Labs Backpack]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Products to add (Expected): [Sauce Labs Backpack]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Cart items verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:45 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:56 PM</td>
+        <td>
+          Entering checkout information: Error, User, 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:56 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:57 PM</td>
+        <td>
+          Expecting an error message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:48:57 PM</td>
+        <td>
+          Actual error message: 'Error: Postal Code is required'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:57 PM</td>
+        <td>
+          Error scenario handled: Expected error message 'Error: Postal Code is required' was displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:57 PM</td>
+        <td>
+          <span class='badge white-text green'>verifyPurchaseFlowWithDynamicData PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="23"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</p>
+            <p class="text-sm">
+              <span>11:49:00 PM</span> / <span>00:01:03:779</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</h5>
+<span class='badge badge-success'>10.03.2025 11:49:00 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:50:04 PM</span>
+<span class='badge badge-default'>00:01:03:779</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow with dynamic product and checkout data.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:00 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:00 PM</td>
+        <td>
+          <b>Starting Purchase Scenario: Error Scenario - No Products Selected</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:00 PM</td>
+        <td>
+          Products to add: []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:00 PM</td>
+        <td>
+          Checkout Details: First Name=Empty, Last Name=Cart, Zip Code=10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:01 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:02 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:49:12 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:12 PM</td>
+        <td>
+          Adding products to cart...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>11:49:12 PM</td>
+        <td>
+          No products specified to add for this scenario.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:23 PM</td>
+        <td>
+          Expected cart badge count: 0, Actual: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:49:23 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:23 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:33 PM</td>
+        <td>
+          Products in cart (Actual): []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:33 PM</td>
+        <td>
+          Products to add (Expected): []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:49:33 PM</td>
+        <td>
+          Cart items verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:33 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:43 PM</td>
+        <td>
+          Entering checkout information: Empty, Cart, 10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:44 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:49:54 PM</td>
+        <td>
+          Expecting an error message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:50:04 PM</td>
+        <td>
+          <span class='badge white-text orange'>verifyPurchaseFlowWithDynamicData SKIPPED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:50:04 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="24"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</p>
+            <p class="text-sm">
+              <span>11:50:08 PM</span> / <span>00:01:03:960</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</h5>
+<span class='badge badge-success'>10.03.2025 11:50:08 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:51:12 PM</span>
+<span class='badge badge-default'>00:01:03:960</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow with dynamic product and checkout data.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:08 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:08 PM</td>
+        <td>
+          <b>Starting Purchase Scenario: Error Scenario - No Products Selected</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:08 PM</td>
+        <td>
+          Products to add: []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:08 PM</td>
+        <td>
+          Checkout Details: First Name=Empty, Last Name=Cart, Zip Code=10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:08 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:09 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:50:20 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:20 PM</td>
+        <td>
+          Adding products to cart...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>11:50:20 PM</td>
+        <td>
+          No products specified to add for this scenario.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:30 PM</td>
+        <td>
+          Expected cart badge count: 0, Actual: 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:50:30 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:30 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:41 PM</td>
+        <td>
+          Products in cart (Actual): []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:41 PM</td>
+        <td>
+          Products to add (Expected): []
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:50:41 PM</td>
+        <td>
+          Cart items verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:41 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:51 PM</td>
+        <td>
+          Entering checkout information: Empty, Cart, 10000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:50:52 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:02 PM</td>
+        <td>
+          Expecting an error message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:51:12 PM</td>
+        <td>
+          <span class='badge white-text red'>verifyPurchaseFlowWithDynamicData FAILED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:51:12 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:51:12 PM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/verifyPurchaseFlowWithDynamicData_20251003_235112.png' src="screenshots/verifyPurchaseFlowWithDynamicData_20251003_235112.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyPurchaseFlowWithFakerData</p>
+            <p class="text-sm">
+              <span>11:51:16 PM</span> / <span>00:01:06:073</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyPurchaseFlowWithFakerData</h5>
+<span class='badge badge-success'>10.03.2025 11:51:16 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:52:22 PM</span>
+<span class='badge badge-default'>00:01:06:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow using dynamically generated checkout information.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:16 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:16 PM</td>
+        <td>
+          <b>Generated Dynamic Checkout Info:</b><br>First Name: Roscoe<br>Last Name: Mante<br>Zip Code: 80013
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:16 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:18 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:28 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:28 PM</td>
+        <td>
+          Adding 'Sauce Labs Backpack' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:29 PM</td>
+        <td>
+          Product added to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:29 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:29 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:29 PM</td>
+        <td>
+          Navigated to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:29 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:39 PM</td>
+        <td>
+          Navigated to Checkout Information page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:39 PM</td>
+        <td>
+          Filling checkout information with dynamically generated data.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:40 PM</td>
+        <td>
+          Checkout information filled using Faker data.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:40 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:50 PM</td>
+        <td>
+          Navigated to Checkout Overview page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:50 PM</td>
+        <td>
+          Verifying Checkout Overview page details.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:51:50 PM</td>
+        <td>
+          Basic Checkout Overview details verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:51:50 PM</td>
+        <td>
+          Clicking 'Finish' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:00 PM</td>
+        <td>
+          Purchase completed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:00 PM</td>
+        <td>
+          Verifying order completion message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:01 PM</td>
+        <td>
+          <b>Order Confirmed!</b> Message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:01 PM</td>
+        <td>
+          Verifying order dispatch message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:01 PM</td>
+        <td>
+          <b>Order Dispatched!<b> Message: 'Your order has been dispatched, and will arrive just as fast as the pony can get there!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:01 PM</td>
+        <td>
+          Verifying the Back Home Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:11 PM</td>
+        <td>
+          Back Home button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:11 PM</td>
+        <td>
+          Verifying the Hamburger Menu- Logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:11 PM</td>
+        <td>
+          Hamburger Menu Opened
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          Successfully logged out.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          Index Page displayed after Logout
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:22 PM</td>
+        <td>
+          <span class='badge white-text green'>verifyPurchaseFlowWithFakerData PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">tc010_verifyPurchaseFlowWithBuilderData</p>
+            <p class="text-sm">
+              <span>11:52:26 PM</span> / <span>00:00:54:359</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc010_verifyPurchaseFlowWithBuilderData</h5>
+<span class='badge badge-success'>10.03.2025 11:52:26 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:53:20 PM</span>
+<span class='badge badge-default'>00:00:54:359</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify end-to-end purchase flow using Test Data Builder for CheckoutInfo.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:26 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:26 PM</td>
+        <td>
+          <b>Using Checkout Info (Builder Pattern):</b><br>First Name: Deangelo<br>Last Name: Bartoletti<br>Zip Code: 19434
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:26 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:27 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Adding 'Sauce Labs Backpack' to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Product added to cart.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Cart badge count verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Navigating to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Navigated to cart page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:38 PM</td>
+        <td>
+          Clicking 'Checkout' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:49 PM</td>
+        <td>
+          Navigated to Checkout Information page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:49 PM</td>
+        <td>
+          Filling checkout information using data built by CheckoutDetailsBuilder.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:49 PM</td>
+        <td>
+          Checkout information filled successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:49 PM</td>
+        <td>
+          Clicking 'Continue' to Checkout Overview.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:10 PM</td>
+        <td>
+          Navigated to Checkout Overview page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:10 PM</td>
+        <td>
+          Verifying Checkout Overview page details.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:10 PM</td>
+        <td>
+          Basic Checkout Overview details verified.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:10 PM</td>
+        <td>
+          Clicking 'Finish' button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:20 PM</td>
+        <td>
+          Purchase completed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:20 PM</td>
+        <td>
+          Verifying order completion message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:20 PM</td>
+        <td>
+          <b>Order Confirmed!</b> Message: 'Thank you for your order!'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:20 PM</td>
+        <td>
+          <span class='badge white-text green'>tc010_verifyPurchaseFlowWithBuilderData PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="27"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">demonstrateCustomExceptions</p>
+            <p class="text-sm">
+              <span>11:53:23 PM</span> / <span>00:00:22:454</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">demonstrateCustomExceptions</h5>
+<span class='badge badge-success'>10.03.2025 11:53:23 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:53:46 PM</span>
+<span class='badge badge-default'>00:00:22:454</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:23 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:23 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:25 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:36 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:36 PM</td>
+        <td>
+          Attempting to interact with a non-existent element to demonstrate ElementNotFoundException.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>11:53:46 PM</td>
+        <td>
+          Caught standard NoSuchElementException. Wrapping it in ElementNotFoundException.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:53:46 PM</td>
+        <td>
+          <span class='badge white-text orange'>demonstrateCustomExceptions SKIPPED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>11:53:46 PM</td>
+        <td>
+          <textarea readonly class="code-block">com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID 'nonExistentElementID123' on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#nonExistentElementID123"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ea82c98211f4806e07cf44c8514dae, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50203/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ea82c98211f4806e07cf44c8514dae
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="28"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">demonstrateCustomExceptions</p>
+            <p class="text-sm">
+              <span>11:53:49 PM</span> / <span>00:00:22:202</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">demonstrateCustomExceptions</h5>
+<span class='badge badge-success'>10.03.2025 11:53:49 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:54:12 PM</span>
+<span class='badge badge-default'>00:00:22:202</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:49 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:49 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:51 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:01 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:01 PM</td>
+        <td>
+          Attempting to interact with a non-existent element to demonstrate ElementNotFoundException.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>11:54:11 PM</td>
+        <td>
+          Caught standard NoSuchElementException. Wrapping it in ElementNotFoundException.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:54:11 PM</td>
+        <td>
+          <span class='badge white-text red'>demonstrateCustomExceptions FAILED</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:54:11 PM</td>
+        <td>
+          <textarea readonly class="code-block">com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID 'nonExistentElementID123' on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#nonExistentElementID123"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7df47d3586c638c0afbf8a303477f026, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7df47d3586c638c0afbf8a303477f026
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:54:12 PM</td>
+        <td>
+          Screenshot:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/demonstrateCustomExceptions_20251003_235412.png' src="screenshots/demonstrateCustomExceptions_20251003_235412.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="29"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">demonstrateWebDriverUtils</p>
+            <p class="text-sm">
+              <span>11:54:15 PM</span> / <span>00:00:34:076</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">demonstrateWebDriverUtils</h5>
+<span class='badge badge-success'>10.03.2025 11:54:15 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:54:49 PM</span>
+<span class='badge badge-default'>00:00:34:076</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Demonstrate usage of custom WebDriver utility methods.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:15 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:15 PM</td>
+        <td>
+          Navigating to base URL: https://www.saucedemo.com/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:16 PM</td>
+        <td>
+          Attempting login with user: <b>standard_user</b>.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:27 PM</td>
+        <td>
+          Successfully logged in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:27 PM</td>
+        <td>
+          Demonstrating JavaScript execution: Scrolling to bottom.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:27 PM</td>
+        <td>
+          Scrolled to bottom of the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:28 PM</td>
+        <td>
+          Demonstrating JavaScript execution: Scrolling to top.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:28 PM</td>
+        <td>
+          Scrolled to top of the page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:29 PM</td>
+        <td>
+          Demonstrating (theoretical) Frame Handling using WebDriverUtils.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>11:54:49 PM</td>
+        <td>
+          Could not demonstrate frame switching (no iframe found): No frame element found by name or id myFrame
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: unknown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:49 PM</td>
+        <td>
+          Skipping actual frame demonstration as SauceDemo has no iframes.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:49 PM</td>
+        <td>
+          Frame handling utility methods exist for future use.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:49 PM</td>
+        <td>
+          WebDriver utility methods demonstration complete.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:49 PM</td>
+        <td>
+          <span class='badge white-text green'>demonstrateWebDriverUtils PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testHyundaiWarrantyLinkWindowHandling</p>
+            <p class="text-sm">
+              <span>11:54:53 PM</span> / <span>00:00:41:886</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testHyundaiWarrantyLinkWindowHandling</h5>
+<span class='badge badge-success'>10.03.2025 11:54:53 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:55:35 PM</span>
+<span class='badge badge-default'>00:00:41:886</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify Hyundai Warranty link opens correctly in a new tab using framework utilities.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:53 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:53 PM</td>
+        <td>
+          Navigating to Hyundai Owners Portal: https://owners.hyundaiusa.com/us/en
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:02 PM</td>
+        <td>
+          Navigated to Hyundai Owners Portal.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:02 PM</td>
+        <td>
+          Attempting to accept cookies on Hyundai portal.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Cookie handling attempted.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Original window handle: 3F06C4F7933985D4ED1E00566EFD27EE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Initial number of windows: 1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Scrolling to and clicking 'Warranty' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Clicked 'Warranty' link.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Using WebDriverUtils to switch to the new tab/window.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:03 PM</td>
+        <td>
+          Successfully switched to the new tab/window.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          New Tab Title: <b>Hyundai Warranty Coverage | America's Best | Hyundai USA</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          New Tab URL: https://www.hyundaiusa.com/us/en/assurance/america-best-warranty
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Validated Title: 'Hyundai Warranty Coverage | America's Best | Hyundai USA' matches expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Validated URL: 'https://www.hyundaiusa.com/us/en/assurance/america-best-warranty' matches expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Checking if the new tab content loaded correctly (footer element).
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Handling Cookie in New Window: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Cookie handling attempted.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 PM</td>
+        <td>
+          Handling Zipcode in New Window
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:33 PM</td>
+        <td>
+          Entered Zipcode input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:33 PM</td>
+        <td>
+          Scrolling to Footer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:34 PM</td>
+        <td>
+          Scrolled to Footer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:34 PM</td>
+        <td>
+          Validating Footer Copyright disclaimer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:34 PM</td>
+        <td>
+          Validated Footer Copyright disclaimer text: 'Hyundai is a registered trademark of Hyundai Motor Company. All rights reserved. ©2025 Hyundai Motor America.' matches expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:34 PM</td>
+        <td>
+          Closing the new tab/window.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          New tab/window closed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          Switching back to the original tab/window.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          Switched back to original tab/window.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          Verifying current URL after switching back.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          Successfully verified return to original Hyundai Owners page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          Hyundai Warranty link window handling test complete.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 PM</td>
+        <td>
+          <span class='badge white-text green'>testHyundaiWarrantyLinkWindowHandling PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="chrome(Incognito)"
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnhancedLogin</p>
+            <p class="text-sm">
+              <span>11:55:38 PM</span> / <span>00:00:01:873</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnhancedLogin</h5>
+<span class='badge badge-success'>10.03.2025 11:55:38 PM</span>
+<span class='badge badge-danger'>10.03.2025 11:55:40 PM</span>
+<span class='badge badge-default'>00:00:01:873</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome(Incognito)</span></div>
+<div class="m-t-10 m-l-5">Verify login with enhanced framework features</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:38 PM</td>
+        <td>
+          Test executed in: chrome (Incognito)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:40 PM</td>
+        <td>
+          <span class='badge white-text green'>testEnhancedLogin PASSED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">com.sauceDemo.exceptions.ElementNotFoundException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.sauceDemo.exceptions.ElementNotFoundException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:53:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>demonstrateCustomExceptions</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>demonstrateCustomExceptions</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+<span class='badge log badge-skip'>4</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+<span status="skip" class='badge log badge-skip'>4 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testInvalidLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testInvalidLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testLockedOutUserLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:44:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testLockedOutUserLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testFlakyLoginAttempt</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:45:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testFlakyLoginAttempt</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:49:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:50:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>20</span>
+<span class='badge log badge-danger'>5</span>
+<span class='badge log badge-skip'>5</span>
+<span class='badge log badge-warning'>1</span>
+</span>
+<p class="name">chrome(Incognito)</p>
+<p class="duration text-sm">31 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome(Incognito)</h4>
+<span status="pass" class='badge log pass-bg'>20 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+<span status="skip" class='badge log badge-skip'>5 skipped</span>
+<span status="skip" class='badge log badge-warning'>1 others</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:41:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testSuccessfulLoginUser</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:41:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testLoginProblemUser</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:42:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testLoginPerformanceGlitchUser</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:42:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testAddSingleProductToCart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:42:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testAddMultipleProductsToCart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testSuccessfulProductCheckout</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:44:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCancelCheckoutFromInformationPage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testInvalidLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testInvalidLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testLockedOutUserLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:44:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testLockedOutUserLoginForScreenshot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:44:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testFlakyLoginAttempt</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:45:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testFlakyLoginAttempt</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:45:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testLoginDataDrivenTest - User: standard_user (Expected: Success)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:45:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testLoginDataDrivenTest - User: locked_out_user (Expected: Failure)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:45:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testLoginDataDrivenTest - User: problem_user (Expected: Success)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:46:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testLoginDataDrivenTest - User: performance_glitch_user (Expected: Success)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:46:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testLoginDataDrivenTest - User: invalid_user (Expected: Failure)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:46:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>verifyHamburgerMenuItems</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:46:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>verifyPurchaseFlowWithDynamicData - User: Standard Purchase - BackPack & Bike Light (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:47:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>verifyPurchaseFlowWithDynamicData - User: Single Item Purchase - Bolt T-Shirt (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:48:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>verifyPurchaseFlowWithDynamicData - User: Error Scenario - Empty Zip Code (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:49:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:50:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:51:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>verifyPurchaseFlowWithFakerData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>tc010_verifyPurchaseFlowWithBuilderData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>23:53:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>demonstrateCustomExceptions</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>demonstrateCustomExceptions</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="warning">
+<td><span class="badge log warning-bg">Warning</span></td>
+<td>23:54:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>demonstrateWebDriverUtils</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:54:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>testHyundaiWarrantyLinkWindowHandling</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>testEnhancedLogin</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 3, 2025 11:41:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 3, 2025 11:55:41 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>20</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='64%'>
+<b>20</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='16%'><b>5</b> tests failed,
+<b>5</b> skipped, <b data-tooltip='3%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='29%'><b>90</b> events passed</small></div>
+<div>
+<small data-tooltip='4%'><b>15</b> events failed,
+<b data-tooltip='%'>199</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testSuccessfulLoginUser":12.568,"testLoginProblemUser":11.969,"testLoginPerformanceGlitchUser":17.056,"testAddSingleProductToCart":0.642,"testAddMultipleProductsToCart":0.582,"testSuccessfulProductCheckout":42.932,"testCancelCheckoutFromInformationPage":20.873,"testInvalidLoginForScreenshot":2.116,"testInvalidLoginForScreenshot":2.073,"testLockedOutUserLoginForScreenshot":1.955,"testLockedOutUserLoginForScreenshot":1.95,"testFlakyLoginAttempt":12.015,"testFlakyLoginAttempt":12.233,"testLoginDataDrivenTest - User: standard_user (Expected: Success)":11.887,"testLoginDataDrivenTest - User: locked_out_user (Expected: Failure)":1.85,"testLoginDataDrivenTest - User: problem_user (Expected: Success)":12.063,"testLoginDataDrivenTest - User: performance_glitch_user (Expected: Success)":16.962,"testLoginDataDrivenTest - User: invalid_user (Expected: Failure)":1.963,"verifyHamburgerMenuItems":13.268,"verifyPurchaseFlowWithDynamicData - User: Standard Purchase - BackPack & Bike Light (Expected: N/A_Expected)":46.003,"verifyPurchaseFlowWithDynamicData - User: Single Item Purchase - Bolt T-Shirt (Expected: N/A_Expected)":44.404,"verifyPurchaseFlowWithDynamicData - User: Error Scenario - Empty Zip Code (Expected: N/A_Expected)":24.451,"verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)":63.779,"verifyPurchaseFlowWithDynamicData - User: Error Scenario - No Products Selected (Expected: N/A_Expected)":63.96,"verifyPurchaseFlowWithFakerData":66.073,"tc010_verifyPurchaseFlowWithBuilderData":54.359,"demonstrateCustomExceptions":22.454,"demonstrateCustomExceptions":22.202,"demonstrateWebDriverUtils":34.076,"testHyundaiWarrantyLinkWindowHandling":41.886,"testEnhancedLogin":1.873
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>chrome(Incognito)</td>
+<td>20</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>64.516%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>QA</td>
+<td>Anant Kumar</td>
+</tr>
+<tr>
+<td>Env</td>
+<td>Test</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 10</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>11.0.13</td>
+</tr>
+<tr>
+<td>Selenium Version</td>
+<td>4.15.0</td>
+</tr>
+<tr>
+<td>Framework</td>
+<td>Java+Selenium Automation Framework</td>
+</tr>
+<tr>
+<td>Application URL</td>
+<td>https://www.saucedemo.com/</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 20,
+failParent: 5,
+warningParent: 1,
+skipParent: 5,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 90,
+failEvents: 15,
+warningEvents: 5,
+skipEvents: 10,
+infoEvents: 184
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

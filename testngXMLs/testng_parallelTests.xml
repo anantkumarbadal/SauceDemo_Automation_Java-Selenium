@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Automation: ParallelSuiteTests" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.sauceDemo.testngUtils.TestListener"/>
+    </listeners>
+
+    <test name="ChromeBrowserTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.sauceDemo.testCases.TC001_LoginTest"/>
+            <class name="com.sauceDemo.testCases.TC002_ProductTest"/>
+            <class name="com.sauceDemo.testCases.TC003_CheckoutTest"/>
+            <class name="com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest"/>
+        </classes>
+    </test>
+
+    <test name="EdgeBrowserTests">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.sauceDemo.testCases.TC001_LoginTest"/>
+            <class name="com.sauceDemo.testCases.TC002_ProductTest"/>
+            <class name="com.sauceDemo.testCases.TC003_CheckoutTest"/>
+            <class name="com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+
+<!--
+  (Common for Cross-Browser Testing)
+This runs all methods and classes within a <test> tag in a single thread,
+but different <test> tags run in parallel. This is ideal for cross-browser testing
+where you want to run the entire test suite on different browsers concurrently.
+
+ -->

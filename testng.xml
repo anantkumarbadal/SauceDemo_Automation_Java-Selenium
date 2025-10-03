@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Automation Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.sauceDemo.testngUtils.TestListener"/>
+        <listener class-name="com.sauceDemo.testngUtils.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="EDGE Standard Tests" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="incognito" value="true"/>
+        <parameter name="headless" value="false"/>
+
+        <packages>
+            <package name="com.sauceDemo.testCases"/>
+        </packages>
+
+    </test>
+
+</suite>

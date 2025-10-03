@@ -1,0 +1,55 @@
+[
+  {
+    "scenario_name": "Standard Purchase - BackPack & Bike Light",
+    "products_to_add": [
+      "Sauce Labs Backpack",
+      "Sauce Labs Bike Light"
+    ],
+    "checkout_details": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "zipCode": "12345"
+    },
+    "expected_item_total": "39.98",
+    "expected_tax": "3.20",
+    "expected_grand_total": "43.18",
+    "expected_confirmation_message": "Thank you for your order!"
+  },
+  {
+    "scenario_name": "Single Item Purchase - Bolt T-Shirt",
+    "products_to_add": [
+      "Sauce Labs Bolt T-Shirt"
+    ],
+    "checkout_details": {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "zipCode": "67890"
+    },
+    "expected_item_total": "15.99",
+    "expected_tax": "1.28",
+    "expected_grand_total": "17.27",
+    "expected_confirmation_message": "Thank you for your order!"
+  },
+  {
+    "scenario_name": "Error Scenario - Empty Zip Code",
+    "products_to_add": [
+      "Sauce Labs Backpack"
+    ],
+    "checkout_details": {
+      "firstName": "Error",
+      "lastName": "User",
+      "zipCode": ""
+    },
+    "expected_error_message": "Error: Postal Code is required"
+  },
+  {
+    "scenario_name": "Error Scenario - No Products Selected",
+    "products_to_add": [],
+    "checkout_details": {
+      "firstName": "Empty",
+      "lastName": "Cart",
+      "zipCode": "10000"
+    },
+    "expected_error_message": "Error: Your cart is empty."
+  }
+]

@@ -1,0 +1,725 @@
+<html>
+<head>
+<title>TestNG:  EDGE Standard Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EDGE Standard Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/5/5</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 03 23:41:26 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>854 seconds (854960 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData()'><b>verifyPurchaseFlowWithDynamicData</b><br>Test class: com.sauceDemo.testCases.TC008_PurchaseFlowJson<br>Test method: Verify end-to-end purchase flow with dynamic product and checkout data.<br>Parameters: Error Scenario - No Products Selected, PurchaseScenario{scenarioName='Error Scenario - No Products Selected', productsToAdd=[], checkoutDetails=CheckoutDetails{firstName='Empty', lastName='Cart', zipCode='10000'}, expectedItemTotal='null', expectedTax='null', expectedGrandTotal='null', expectedConfirmationMessage='null', expectedErrorMessage='Error: Your cart is empty.'}</td>
+<td><div><pre>java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace698097853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace698097853'><pre>java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>63</td>
+<td>com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt()'><b>testFlakyLoginAttempt</b><br>Test class: com.sauceDemo.testCases.TC005_RetryAnalyzerTest<br>Test method: Demonstrates RetryAnalyzer functionality - designed to fail then pass</td>
+<td><div><pre>java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1268471769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1268471769'><pre>java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>12</td>
+<td>com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()'><b>demonstrateCustomExceptions</b><br>Test class: com.sauceDemo.testCases.TC011_CustomExceptionDemoTest<br>Test method: Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues.</td>
+<td><div><pre>com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID &apos;nonExistentElementID123&apos; on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nonExistentElementID123&quot;}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7df47d3586c638c0afbf8a303477f026, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7df47d3586c638c0afbf8a303477f026
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace595125434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace595125434'><pre>com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID &apos;nonExistentElementID123&apos; on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nonExistentElementID123&quot;}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7df47d3586c638c0afbf8a303477f026, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7df47d3586c638c0afbf8a303477f026
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+</pre></div></td>
+<td>21</td>
+<td>com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()'><b>testLockedOutUserLoginForScreenshot</b><br>Test class: com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest<br>Test method: Verify that a screenshot is taken when a locked out user tries to login</td>
+<td><div><pre>java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1990277906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1990277906'><pre>java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()'><b>testInvalidLoginForScreenshot</b><br>Test class: com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest<br>Test method: Verify that a screenshot is taken on failed login due to incorrect credentials</td>
+<td><div><pre>java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20334603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20334603'><pre>java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC002_ProductTest.testAddMultipleProductsToCart()'><b>testAddMultipleProductsToCart</b><br>Test class: com.sauceDemo.testCases.TC002_ProductTest<br>Test method: Verify adding multiple products to cart (example for another product)</td>
+<td></td>
+<td>0</td>
+<td>com.sauceDemo.testCases.TC002_ProductTest@5a67e962</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC001_LoginTest.testLoginPerformanceGlitchUser()'><b>testLoginPerformanceGlitchUser</b><br>Test class: com.sauceDemo.testCases.TC001_LoginTest<br>Test method: Verify login with performance glitch user credentials</td>
+<td></td>
+<td>17</td>
+<td>com.sauceDemo.testCases.TC001_LoginTest@518cf84a</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData()'><b>verifyPurchaseFlowWithDynamicData</b><br>Test class: com.sauceDemo.testCases.TC008_PurchaseFlowJson<br>Test method: Verify end-to-end purchase flow with dynamic product and checkout data.<br>Parameters: Standard Purchase - BackPack & Bike Light, PurchaseScenario{scenarioName='Standard Purchase - BackPack & Bike Light', productsToAdd=[Sauce Labs Backpack, Sauce Labs Bike Light], checkoutDetails=CheckoutDetails{firstName='John', lastName='Doe', zipCode='12345'}, expectedItemTotal='39.98', expectedTax='3.20', expectedGrandTotal='43.18', expectedConfirmationMessage='Thank you for your order!', expectedErrorMessage='null'}</td>
+<td></td>
+<td>46</td>
+<td>com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC007_DashboardMenuTest.verifyHamburgerMenuItems()'><b>verifyHamburgerMenuItems</b><br>Test class: com.sauceDemo.testCases.TC007_DashboardMenuTest<br>Test method: Verify all items and their text in the Dashboard Hamburger Menu.</td>
+<td></td>
+<td>13</td>
+<td>com.sauceDemo.testCases.TC007_DashboardMenuTest@1f966492</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC002_ProductTest.testAddSingleProductToCart()'><b>testAddSingleProductToCart</b><br>Test class: com.sauceDemo.testCases.TC002_ProductTest<br>Test method: Verify adding a single product to cart</td>
+<td></td>
+<td>0</td>
+<td>com.sauceDemo.testCases.TC002_ProductTest@5a67e962</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC003_CheckoutTest.testCancelCheckoutFromInformationPage()'><b>testCancelCheckoutFromInformationPage</b><br>Test class: com.sauceDemo.testCases.TC003_CheckoutTest<br>Test method: Verify cancelling checkout from information page</td>
+<td></td>
+<td>20</td>
+<td>com.sauceDemo.testCases.TC003_CheckoutTest@b18c4</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC006_LoginDDTTest.testLoginDataDrivenTest()'><b>testLoginDataDrivenTest</b><br>Test class: com.sauceDemo.testCases.TC006_LoginDDTTest<br>Test method: Data-driven test for various login scenarios<br>Parameters: performance_glitch_user, secret_sauce, Success</td>
+<td></td>
+<td>16</td>
+<td>com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest.verifyPurchaseFlowWithFakerData()'><b>verifyPurchaseFlowWithFakerData</b><br>Test class: com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest<br>Test method: Verify end-to-end purchase flow using dynamically generated checkout information.</td>
+<td></td>
+<td>66</td>
+<td>com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@1a28aef1</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC006_LoginDDTTest.testLoginDataDrivenTest()'><b>testLoginDataDrivenTest</b><br>Test class: com.sauceDemo.testCases.TC006_LoginDDTTest<br>Test method: Data-driven test for various login scenarios<br>Parameters: standard_user, secret_sauce, Success</td>
+<td></td>
+<td>11</td>
+<td>com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC006_LoginDDTTest.testLoginDataDrivenTest()'><b>testLoginDataDrivenTest</b><br>Test class: com.sauceDemo.testCases.TC006_LoginDDTTest<br>Test method: Data-driven test for various login scenarios<br>Parameters: problem_user, secret_sauce, Success</td>
+<td></td>
+<td>12</td>
+<td>com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC001_LoginTest.testLoginProblemUser()'><b>testLoginProblemUser</b><br>Test class: com.sauceDemo.testCases.TC001_LoginTest<br>Test method: Verify login with problem user credentials</td>
+<td></td>
+<td>11</td>
+<td>com.sauceDemo.testCases.TC001_LoginTest@518cf84a</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC001_LoginTest.testSuccessfulLoginUser()'><b>testSuccessfulLoginUser</b><br>Test class: com.sauceDemo.testCases.TC001_LoginTest<br>Test method: Verify successful login with valid credentials</td>
+<td></td>
+<td>12</td>
+<td>com.sauceDemo.testCases.TC001_LoginTest@518cf84a</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest.tc010_verifyPurchaseFlowWithBuilderData()'><b>tc010_verifyPurchaseFlowWithBuilderData</b><br>Test class: com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest<br>Test method: Verify end-to-end purchase flow using Test Data Builder for CheckoutInfo.</td>
+<td></td>
+<td>54</td>
+<td>com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@203c20cf</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC003_CheckoutTest.testSuccessfulProductCheckout()'><b>testSuccessfulProductCheckout</b><br>Test class: com.sauceDemo.testCases.TC003_CheckoutTest<br>Test method: Verify successful product checkout flow</td>
+<td></td>
+<td>42</td>
+<td>com.sauceDemo.testCases.TC003_CheckoutTest@b18c4</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC014_EnhancedLoginTest.testEnhancedLogin()'><b>testEnhancedLogin</b><br>Test class: com.sauceDemo.testCases.TC014_EnhancedLoginTest<br>Test method: Verify login with enhanced framework features</td>
+<td></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC014_EnhancedLoginTest@6b63abdc</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest.demonstrateWebDriverUtils()'><b>demonstrateWebDriverUtils</b><br>Test class: com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest<br>Test method: Demonstrate usage of custom WebDriver utility methods.</td>
+<td></td>
+<td>34</td>
+<td>com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@14f3c6fc</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC006_LoginDDTTest.testLoginDataDrivenTest()'><b>testLoginDataDrivenTest</b><br>Test class: com.sauceDemo.testCases.TC006_LoginDDTTest<br>Test method: Data-driven test for various login scenarios<br>Parameters: locked_out_user, secret_sauce, Failure</td>
+<td></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC006_LoginDDTTest.testLoginDataDrivenTest()'><b>testLoginDataDrivenTest</b><br>Test class: com.sauceDemo.testCases.TC006_LoginDDTTest<br>Test method: Data-driven test for various login scenarios<br>Parameters: invalid_user, wrong_password, Failure</td>
+<td></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData()'><b>verifyPurchaseFlowWithDynamicData</b><br>Test class: com.sauceDemo.testCases.TC008_PurchaseFlowJson<br>Test method: Verify end-to-end purchase flow with dynamic product and checkout data.<br>Parameters: Single Item Purchase - Bolt T-Shirt, PurchaseScenario{scenarioName='Single Item Purchase - Bolt T-Shirt', productsToAdd=[Sauce Labs Bolt T-Shirt], checkoutDetails=CheckoutDetails{firstName='Jane', lastName='Smith', zipCode='67890'}, expectedItemTotal='15.99', expectedTax='1.28', expectedGrandTotal='17.27', expectedConfirmationMessage='Thank you for your order!', expectedErrorMessage='null'}</td>
+<td></td>
+<td>44</td>
+<td>com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling.testHyundaiWarrantyLinkWindowHandling()'><b>testHyundaiWarrantyLinkWindowHandling</b><br>Test class: com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling<br>Test method: Verify Hyundai Warranty link opens correctly in a new tab using framework utilities.</td>
+<td></td>
+<td>41</td>
+<td>com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@bc4d5e1</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData()'><b>verifyPurchaseFlowWithDynamicData</b><br>Test class: com.sauceDemo.testCases.TC008_PurchaseFlowJson<br>Test method: Verify end-to-end purchase flow with dynamic product and checkout data.<br>Parameters: Error Scenario - Empty Zip Code, PurchaseScenario{scenarioName='Error Scenario - Empty Zip Code', productsToAdd=[Sauce Labs Backpack], checkoutDetails=CheckoutDetails{firstName='Error', lastName='User', zipCode=''}, expectedItemTotal='null', expectedTax='null', expectedGrandTotal='null', expectedConfirmationMessage='null', expectedErrorMessage='Error: Postal Code is required'}</td>
+<td></td>
+<td>24</td>
+<td>com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()'><b>testLockedOutUserLoginForScreenshot</b><br>Test class: com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest<br>Test method: Verify that a screenshot is taken when a locked out user tries to login</td>
+<td><div><pre>java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1466078016", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1466078016'><pre>java.lang.AssertionError: Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>1</td>
+<td>com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt()'><b>testFlakyLoginAttempt</b><br>Test class: com.sauceDemo.testCases.TC005_RetryAnalyzerTest<br>Test method: Demonstrates RetryAnalyzer functionality - designed to fail then pass</td>
+<td><div><pre>java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace194466032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace194466032'><pre>java.lang.AssertionError: Simulating a transient failure. This test should be retried!
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.sauceDemo.testCases.TC005_RetryAnalyzerTest.testFlakyLoginAttempt(TC005_RetryAnalyzerTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>12</td>
+<td>com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData()'><b>verifyPurchaseFlowWithDynamicData</b><br>Test class: com.sauceDemo.testCases.TC008_PurchaseFlowJson<br>Test method: Verify end-to-end purchase flow with dynamic product and checkout data.<br>Parameters: Error Scenario - No Products Selected, PurchaseScenario{scenarioName='Error Scenario - No Products Selected', productsToAdd=[], checkoutDetails=CheckoutDetails{firstName='Empty', lastName='Cart', zipCode='10000'}, expectedItemTotal='null', expectedTax='null', expectedGrandTotal='null', expectedConfirmationMessage='null', expectedErrorMessage='Error: Your cart is empty.'}</td>
+<td><div><pre>java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1103956442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1103956442'><pre>java.lang.AssertionError: Error message should be displayed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.sauceDemo.testCases.TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(TC008_PurchaseFlowJson.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>63</td>
+<td>com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()'><b>testInvalidLoginForScreenshot</b><br>Test class: com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest<br>Test method: Verify that a screenshot is taken on failed login due to incorrect credentials</td>
+<td><div><pre>java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1914647846", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1914647846'><pre>java.lang.AssertionError: Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot(TC004_FailedLoginScreenshotTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>2</td>
+<td>com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168</td></tr>
+<tr>
+<td title='com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()'><b>demonstrateCustomExceptions</b><br>Test class: com.sauceDemo.testCases.TC011_CustomExceptionDemoTest<br>Test method: Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues.</td>
+<td><div><pre>com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID &apos;nonExistentElementID123&apos; on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nonExistentElementID123&quot;}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ea82c98211f4806e07cf44c8514dae, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50203/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ea82c98211f4806e07cf44c8514dae
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1908574814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1908574814'><pre>com.sauceDemo.exceptions.ElementNotFoundException: Failed to find expected element with ID &apos;nonExistentElementID123&apos; on the Products Page. This element is critical for the test flow.
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nonExistentElementID123&quot;}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ea82c98211f4806e07cf44c8514dae, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50203/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ea82c98211f4806e07cf44c8514dae
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExceptions(TC011_CustomExceptionDemoTest.java:48)
+	... 27 more
+</pre></div></td>
+<td>22</td>
+<td>com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211</td></tr>
+</table><p>
+</body>
+</html>

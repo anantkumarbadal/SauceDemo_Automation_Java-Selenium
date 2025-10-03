@@ -1,0 +1,36 @@
+2025-09-27 02:59:40.024 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Starting enhanced login test
+2025-09-27 02:59:40.053 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Navigating to login page
+2025-09-27 02:59:41.362 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering username
+2025-09-27 02:59:41.966 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 583 ms
+2025-09-27 02:59:41.967 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering password
+2025-09-27 02:59:42.600 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 633 ms
+2025-09-27 02:59:42.608 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Clicking login button
+2025-09-27 02:59:43.270 [main] INFO  com.sauceDemo.utils.SmartElement - click operation took 662 ms
+2025-09-27 02:59:43.270 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Verifying successful login
+2025-09-27 02:59:43.359 [main] INFO  com.sauceDemo.utils.SmartElement - isDisplayed operation took 89 ms
+2025-09-27 02:59:43.457 [main] INFO  com.sauceDemo.utils.SmartElement - getText operation took 80 ms
+2025-09-27 02:59:43.458 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Login test completed successfully
+2025-10-03 14:07:04.439 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Starting enhanced login test
+2025-10-03 14:07:04.460 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Navigating to login page
+2025-10-03 14:07:06.377 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering username
+2025-10-03 14:07:06.571 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 180 ms
+2025-10-03 14:07:06.571 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering password
+2025-10-03 14:07:06.713 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 142 ms
+2025-10-03 14:07:06.713 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Clicking login button
+2025-10-03 14:07:06.947 [main] INFO  com.sauceDemo.utils.SmartElement - click operation took 234 ms
+2025-10-03 14:07:06.947 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Verifying successful login
+2025-10-03 14:07:07.000 [main] INFO  com.sauceDemo.utils.SmartElement - isDisplayed operation took 53 ms
+2025-10-03 14:07:07.037 [main] INFO  com.sauceDemo.utils.SmartElement - getText operation took 34 ms
+2025-10-03 14:07:07.037 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Login test completed successfully
+2025-10-03 23:55:38.768 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Starting enhanced login test
+2025-10-03 23:55:38.783 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Navigating to login page
+2025-10-03 23:55:39.994 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering username
+2025-10-03 23:55:40.258 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 241 ms
+2025-10-03 23:55:40.258 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Entering password
+2025-10-03 23:55:40.385 [main] INFO  com.sauceDemo.utils.SmartElement - sendKeys operation took 127 ms
+2025-10-03 23:55:40.385 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Clicking login button
+2025-10-03 23:55:40.565 [main] INFO  com.sauceDemo.utils.SmartElement - click operation took 180 ms
+2025-10-03 23:55:40.565 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Verifying successful login
+2025-10-03 23:55:40.594 [main] INFO  com.sauceDemo.utils.SmartElement - isDisplayed operation took 29 ms
+2025-10-03 23:55:40.633 [main] INFO  com.sauceDemo.utils.SmartElement - getText operation took 31 ms
+2025-10-03 23:55:40.633 [main] INFO  com.sauceDemo.testCases.TC014_EnhancedLoginTest - Login test completed successfully

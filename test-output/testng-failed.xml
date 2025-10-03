@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.sauceDemo.testngUtils.TestListener"/>
+    <listener class-name="com.sauceDemo.testngUtils.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="EDGE Standard Tests(failed)">
+    <parameter name="headless" value="false"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="incognito" value="true"/>
+    <classes>
+      <class name="com.sauceDemo.testCases.TC008_PurchaseFlowJson">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyPurchaseFlowWithDynamicData" invocation-numbers="3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testCases.TC008_PurchaseFlowJson -->
+      <class name="com.sauceDemo.testCases.TC005_RetryAnalyzerTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testFlakyLoginAttempt"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testCases.TC005_RetryAnalyzerTest -->
+      <class name="com.sauceDemo.testCases.TC011_CustomExceptionDemoTest">
+        <methods>
+          <include name="demonstrateCustomExceptions"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testCases.TC011_CustomExceptionDemoTest -->
+      <class name="com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest">
+        <methods>
+          <include name="testInvalidLoginForScreenshot"/>
+          <include name="testLockedOutUserLoginForScreenshot"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest -->
+    </classes>
+  </test> <!-- EDGE Standard Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Automation Suite] -->

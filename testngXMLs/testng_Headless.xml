@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Automation Suite" verbose="1" >
+
+    <listeners>
+        <listener class-name="com.sauceDemo.testngUtils.TestListener"/>
+    </listeners>
+
+    <test name="Chrome Incognito Headless Tests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="incognito" value="false"/>
+        <parameter name="headless" value="true"/>
+
+        <packages>
+            <package name="com.sauceDemo.testCases" />
+        </packages>
+
+    </test>
+
+
+</suite>
+

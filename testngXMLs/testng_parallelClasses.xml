@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Automation: ParallelSuiteClasses" parallel="classes" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.sauceDemo.testngUtils.TestListener"/>
+    </listeners>
+
+    <test name="Chrome Standard Tests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="incognito" value="false"/>
+        <parameter name="headless" value="false"/>
+
+        <classes>
+            <class name="com.sauceDemo.testCases.TC001_LoginTest"/>
+            <class name="com.sauceDemo.testCases.TC002_ProductTest"/>
+            <class name="com.sauceDemo.testCases.TC003_CheckoutTest"/>
+            <class name="com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest"/>
+        </classes>
+
+    </test>
+</suite>
+
+        <!-- This will run all methods within a class in the same thread, but different classes will run in parallel threads. -->

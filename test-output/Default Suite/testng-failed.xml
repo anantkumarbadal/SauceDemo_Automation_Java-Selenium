@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationFramework_Java_Selenium(failed)">
+    <classes>
+      <class name="com.sauceDemo.testsPractice.TestFeature">
+        <methods>
+          <include name="testTitle"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testsPractice.TestFeature -->
+    </classes>
+  </test> <!-- AutomationFramework_Java_Selenium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
