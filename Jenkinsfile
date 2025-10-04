@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        MAVEN_HOME = tool 'Maven'
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -9,19 +13,26 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean install'  // If using Maven
+                bat "${MAVEN_HOME}\\bin\\mvn clean compile"
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'  // Or use Gradle/other commands as needed
+                bat "${MAVEN_HOME}\\bin\\mvn test"
             }
         }
         stage('Report') {
             steps {
-                // Archive test reports or publish results
-                junit '**/target/surefire-reports/*.xml'
+                junit '**/test-output/testng-results.xml'
             }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: '**/test-output/**/*.*', allowEmptyArchive: true
+        }
+        failure {
+            echo "Build failed. Check logs and reports for details."
         }
     }
 }
