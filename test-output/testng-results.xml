@@ -2,12 +2,12 @@
 <testng-results retried="5" ignored="5" total="36" passed="21" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-03T23:41:26 IST" name="SauceDemo Automation Suite" finished-at="2025-10-03T23:55:41 IST" duration-ms="854960">
+  <suite started-at="2025-10-10T11:40:18 IST" name="SauceDemo Automation Suite" finished-at="2025-10-10T11:54:55 IST" duration-ms="876696">
     <groups>
     </groups>
-    <test started-at="2025-10-03T23:41:26 IST" name="EDGE Standard Tests" finished-at="2025-10-03T23:55:41 IST" duration-ms="854960">
+    <test started-at="2025-10-10T11:40:18 IST" name="Chrome Standard Tests" finished-at="2025-10-10T11:54:55 IST" duration-ms="876696">
       <class name="com.sauceDemo.testCases.TC006_LoginDDTTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:28 IST" name="setup" finished-at="2025-10-03T23:45:31 IST" duration-ms="2843" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:20 IST" name="setup" finished-at="2025-10-10T11:44:22 IST" duration-ms="2247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,14 +26,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:31 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-03T23:45:43 IST" duration-ms="11895" status="PASS">
+        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:22 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-10T11:44:34 IST" duration-ms="12055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,18 +54,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginDataDrivenTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:43 IST" name="teardown" finished-at="2025-10-03T23:45:44 IST" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:34 IST" name="teardown" finished-at="2025-10-10T11:44:35 IST" duration-ms="840" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:44 IST" name="setup" finished-at="2025-10-03T23:45:47 IST" duration-ms="3080" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:35 IST" name="setup" finished-at="2025-10-10T11:44:37 IST" duration-ms="2100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,14 +84,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:47 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-03T23:45:49 IST" duration-ms="1852" status="PASS">
+        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:37 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-10T11:44:39 IST" duration-ms="2315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,18 +112,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginDataDrivenTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:49 IST" name="teardown" finished-at="2025-10-03T23:45:50 IST" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:39 IST" name="teardown" finished-at="2025-10-10T11:44:40 IST" duration-ms="688" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:50 IST" name="setup" finished-at="2025-10-03T23:45:52 IST" duration-ms="2713" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:40 IST" name="setup" finished-at="2025-10-10T11:44:42 IST" duration-ms="2010" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,14 +142,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:45:52 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-03T23:46:05 IST" duration-ms="12067" status="PASS">
+        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:42 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-10T11:44:55 IST" duration-ms="12336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,18 +170,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginDataDrivenTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:05 IST" name="teardown" finished-at="2025-10-03T23:46:06 IST" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:55 IST" name="teardown" finished-at="2025-10-10T11:44:55 IST" duration-ms="836" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:06 IST" name="setup" finished-at="2025-10-03T23:46:08 IST" duration-ms="2691" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:55 IST" name="setup" finished-at="2025-10-10T11:44:58 IST" duration-ms="2171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,14 +200,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:08 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-03T23:46:25 IST" duration-ms="16968" status="PASS">
+        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:44:58 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-10T11:45:15 IST" duration-ms="17208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,18 +228,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginDataDrivenTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:25 IST" name="teardown" finished-at="2025-10-03T23:46:26 IST" duration-ms="816" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:45:15 IST" name="teardown" finished-at="2025-10-10T11:45:16 IST" duration-ms="852" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:26 IST" name="setup" finished-at="2025-10-03T23:46:30 IST" duration-ms="3259" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:45:16 IST" name="setup" finished-at="2025-10-10T11:45:18 IST" duration-ms="2332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -258,14 +258,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:30 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-03T23:46:31 IST" duration-ms="1965" status="PASS">
+        <test-method signature="testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:45:18 IST" name="testLoginDataDrivenTest" description="Data-driven test for various login scenarios" data-provider="loginData" finished-at="2025-10-10T11:45:21 IST" duration-ms="2793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,11 +286,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginDataDrivenTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447]" started-at="2025-10-03T23:46:31 IST" name="teardown" finished-at="2025-10-03T23:46:32 IST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14]" started-at="2025-10-10T11:45:21 IST" name="teardown" finished-at="2025-10-10T11:45:22 IST" duration-ms="774" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@6cf31447] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginDataDrivenTest status=SUCCESS method=TC006_LoginDDTTest.testLoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauceDemo.testCases.TC006_LoginDDTTest@1abc9f14] output={null}]]]>
               </value>
             </param>
           </params>
@@ -299,7 +299,7 @@
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC006_LoginDDTTest -->
       <class name="com.sauceDemo.testCases.TC011_CustomExceptionDemoTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:53:21 IST" name="setup" finished-at="2025-10-03T23:53:23 IST" duration-ms="2532" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:52:36 IST" name="setup" finished-at="2025-10-10T11:52:39 IST" duration-ms="2606" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,14 +318,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:53:23 IST" name="demonstrateCustomExceptions" description="Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues." finished-at="2025-10-03T23:53:46 IST" duration-ms="22439" status="SKIP">
+        <test-method retried="true" signature="demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:52:39 IST" name="demonstrateCustomExceptions" description="Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues." finished-at="2025-10-10T11:53:01 IST" duration-ms="22196" status="SKIP">
           <exception class="com.sauceDemo.exceptions.ElementNotFoundException">
             <message>
               <![CDATA[Failed to find expected element with ID 'nonExistentElementID123' on the Products Page. This element is critical for the test flow.]]>
@@ -366,9 +366,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32ea82c98211f4806e07cf44c8514dae, findElement {using=id, value=nonExistentElementID123}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50203/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 32ea82c98211f4806e07cf44c8514dae
+Command: [6b5c8e5bfe3d0a06375cfa5f8de2c103, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60661/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b5c8e5bfe3d0a06375cfa5f8de2c103
 at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -391,18 +391,18 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demonstrateCustomExceptions -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:53:46 IST" name="teardown" finished-at="2025-10-03T23:53:47 IST" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:53:01 IST" name="teardown" finished-at="2025-10-10T11:53:02 IST" duration-ms="908" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demonstrateCustomExceptions status=SKIP method=TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211] output={null}]]]>
+                <![CDATA[[TestResult name=demonstrateCustomExceptions status=SKIP method=TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:53:47 IST" name="setup" finished-at="2025-10-03T23:53:49 IST" duration-ms="2739" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:53:02 IST" name="setup" finished-at="2025-10-10T11:53:04 IST" duration-ms="2320" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -421,14 +421,14 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:53:49 IST" name="demonstrateCustomExceptions" description="Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues." finished-at="2025-10-03T23:54:11 IST" duration-ms="21996" status="FAIL">
+        <test-method signature="demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:53:04 IST" name="demonstrateCustomExceptions" description="Demonstrate custom exception handling for ElementNotFound and AutomationFlow issues." finished-at="2025-10-10T11:53:26 IST" duration-ms="21990" status="FAIL">
           <exception class="com.sauceDemo.exceptions.ElementNotFoundException">
             <message>
               <![CDATA[Failed to find expected element with ID 'nonExistentElementID123' on the Products Page. This element is critical for the test flow.]]>
@@ -469,9 +469,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7df47d3586c638c0afbf8a303477f026, findElement {using=id, value=nonExistentElementID123}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7df47d3586c638c0afbf8a303477f026
+Command: [928ea911185205b097667c60a0d3c0ec, findElement {using=id, value=nonExistentElementID123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\anant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50672/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 928ea911185205b097667c60a0d3c0ec
 at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -494,11 +494,11 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demonstrateCustomExceptions -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211]" started-at="2025-10-03T23:54:12 IST" name="teardown" finished-at="2025-10-03T23:54:12 IST" duration-ms="882" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66]" started-at="2025-10-10T11:53:27 IST" name="teardown" finished-at="2025-10-10T11:53:27 IST" duration-ms="883" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demonstrateCustomExceptions status=FAILURE method=TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@dcc6211] output={null}]]]>
+                <![CDATA[[TestResult name=demonstrateCustomExceptions status=FAILURE method=TC011_CustomExceptionDemoTest.demonstrateCustomExceptions()[pri:0, instance:com.sauceDemo.testCases.TC011_CustomExceptionDemoTest@1c504e66] output={null}]]]>
               </value>
             </param>
           </params>
@@ -507,7 +507,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC011_CustomExceptionDemoTest -->
       <class name="com.sauceDemo.testCases.TC007_DashboardMenuTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@1f966492]" started-at="2025-10-03T23:46:32 IST" name="setup" finished-at="2025-10-03T23:46:36 IST" duration-ms="4083" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@e04ccf8]" started-at="2025-10-10T11:45:22 IST" name="setup" finished-at="2025-10-10T11:45:24 IST" duration-ms="2928" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -526,22 +526,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHamburgerMenuItems()[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@1f966492]" started-at="2025-10-03T23:46:36 IST" name="verifyHamburgerMenuItems" description="Verify all items and their text in the Dashboard Hamburger Menu." finished-at="2025-10-03T23:46:50 IST" duration-ms="13272" status="PASS">
+        <test-method signature="verifyHamburgerMenuItems()[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@e04ccf8]" started-at="2025-10-10T11:45:24 IST" name="verifyHamburgerMenuItems" description="Verify all items and their text in the Dashboard Hamburger Menu." finished-at="2025-10-10T11:45:38 IST" duration-ms="13570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHamburgerMenuItems -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@1f966492]" started-at="2025-10-03T23:46:50 IST" name="teardown" finished-at="2025-10-03T23:46:50 IST" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@e04ccf8]" started-at="2025-10-10T11:45:38 IST" name="teardown" finished-at="2025-10-10T11:45:39 IST" duration-ms="867" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHamburgerMenuItems status=SUCCESS method=TC007_DashboardMenuTest.verifyHamburgerMenuItems()[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@1f966492] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHamburgerMenuItems status=SUCCESS method=TC007_DashboardMenuTest.verifyHamburgerMenuItems()[pri:0, instance:com.sauceDemo.testCases.TC007_DashboardMenuTest@e04ccf8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -550,7 +550,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC007_DashboardMenuTest -->
       <class name="com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@bc4d5e1]" started-at="2025-10-03T23:54:50 IST" name="setup" finished-at="2025-10-03T23:54:53 IST" duration-ms="2863" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@3cee53dc]" started-at="2025-10-10T11:54:06 IST" name="setup" finished-at="2025-10-10T11:54:08 IST" duration-ms="2488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -569,22 +569,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testHyundaiWarrantyLinkWindowHandling()[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@bc4d5e1]" started-at="2025-10-03T23:54:53 IST" name="testHyundaiWarrantyLinkWindowHandling" description="Verify Hyundai Warranty link opens correctly in a new tab using framework utilities." finished-at="2025-10-03T23:55:35 IST" duration-ms="41899" status="PASS">
+        <test-method signature="testHyundaiWarrantyLinkWindowHandling()[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@3cee53dc]" started-at="2025-10-10T11:54:08 IST" name="testHyundaiWarrantyLinkWindowHandling" description="Verify Hyundai Warranty link opens correctly in a new tab using framework utilities." finished-at="2025-10-10T11:54:49 IST" duration-ms="40795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHyundaiWarrantyLinkWindowHandling -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@bc4d5e1]" started-at="2025-10-03T23:55:35 IST" name="teardown" finished-at="2025-10-03T23:55:35 IST" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@3cee53dc]" started-at="2025-10-10T11:54:49 IST" name="teardown" finished-at="2025-10-10T11:54:50 IST" duration-ms="914" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHyundaiWarrantyLinkWindowHandling status=SUCCESS method=TC013_HyundaiWarrantyWindowHandling.testHyundaiWarrantyLinkWindowHandling()[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@bc4d5e1] output={null}]]]>
+                <![CDATA[[TestResult name=testHyundaiWarrantyLinkWindowHandling status=SUCCESS method=TC013_HyundaiWarrantyWindowHandling.testHyundaiWarrantyLinkWindowHandling()[pri:0, instance:com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling@3cee53dc] output={null}]]]>
               </value>
             </param>
           </params>
@@ -593,7 +593,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC013_HyundaiWarrantyWindowHandling -->
       <class name="com.sauceDemo.testCases.TC002_ProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:23 IST" name="setup" finished-at="2025-10-03T23:42:26 IST" duration-ms="3327" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:17 IST" name="setup" finished-at="2025-10-10T11:41:19 IST" duration-ms="2053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -612,33 +612,33 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginBeforeProductTests()[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:26 IST" name="loginBeforeProductTests" finished-at="2025-10-03T23:42:38 IST" duration-ms="11971" status="PASS">
+        <test-method is-config="true" signature="loginBeforeProductTests()[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:19 IST" name="loginBeforeProductTests" finished-at="2025-10-10T11:41:31 IST" duration-ms="12305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeProductTests -->
-        <test-method signature="testAddSingleProductToCart()[pri:1, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:38 IST" name="testAddSingleProductToCart" description="Verify adding a single product to cart" finished-at="2025-10-03T23:42:39 IST" duration-ms="644" status="PASS">
+        <test-method signature="testAddSingleProductToCart()[pri:1, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:31 IST" name="testAddSingleProductToCart" description="Verify adding a single product to cart" finished-at="2025-10-10T11:41:31 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddSingleProductToCart -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:39 IST" name="teardown" finished-at="2025-10-03T23:42:40 IST" duration-ms="865" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:31 IST" name="teardown" finished-at="2025-10-10T11:41:32 IST" duration-ms="823" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddSingleProductToCart status=SUCCESS method=TC002_ProductTest.testAddSingleProductToCart()[pri:1, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name=testAddSingleProductToCart status=SUCCESS method=TC002_ProductTest.testAddSingleProductToCart()[pri:1, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:40 IST" name="setup" finished-at="2025-10-03T23:42:43 IST" duration-ms="3164" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:32 IST" name="setup" finished-at="2025-10-10T11:41:35 IST" duration-ms="2769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -657,26 +657,26 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginBeforeProductTests()[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:43 IST" name="loginBeforeProductTests" finished-at="2025-10-03T23:42:55 IST" duration-ms="11922" status="PASS">
+        <test-method is-config="true" signature="loginBeforeProductTests()[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:35 IST" name="loginBeforeProductTests" finished-at="2025-10-10T11:41:48 IST" duration-ms="12846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeProductTests -->
-        <test-method signature="testAddMultipleProductsToCart()[pri:2, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:55 IST" name="testAddMultipleProductsToCart" description="Verify adding multiple products to cart (example for another product)" finished-at="2025-10-03T23:42:55 IST" duration-ms="582" status="PASS">
+        <test-method signature="testAddMultipleProductsToCart()[pri:2, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:48 IST" name="testAddMultipleProductsToCart" description="Verify adding multiple products to cart (example for another product)" finished-at="2025-10-10T11:41:49 IST" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMultipleProductsToCart -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962]" started-at="2025-10-03T23:42:55 IST" name="teardown" finished-at="2025-10-03T23:42:57 IST" duration-ms="1155" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195]" started-at="2025-10-10T11:41:49 IST" name="teardown" finished-at="2025-10-10T11:41:50 IST" duration-ms="872" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddMultipleProductsToCart status=SUCCESS method=TC002_ProductTest.testAddMultipleProductsToCart()[pri:2, instance:com.sauceDemo.testCases.TC002_ProductTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name=testAddMultipleProductsToCart status=SUCCESS method=TC002_ProductTest.testAddMultipleProductsToCart()[pri:2, instance:com.sauceDemo.testCases.TC002_ProductTest@4a0df195] output={null}]]]>
               </value>
             </param>
           </params>
@@ -685,7 +685,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC002_ProductTest -->
       <class name="com.sauceDemo.testCases.TC014_EnhancedLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@6b63abdc]" started-at="2025-10-03T23:55:35 IST" name="setup" finished-at="2025-10-03T23:55:38 IST" duration-ms="2841" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@2fe2965c]" started-at="2025-10-10T11:54:50 IST" name="setup" finished-at="2025-10-10T11:54:52 IST" duration-ms="2497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -704,22 +704,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEnhancedLogin()[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@6b63abdc]" started-at="2025-10-03T23:55:38 IST" name="testEnhancedLogin" description="Verify login with enhanced framework features" finished-at="2025-10-03T23:55:40 IST" duration-ms="1892" status="PASS">
+        <test-method signature="testEnhancedLogin()[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@2fe2965c]" started-at="2025-10-10T11:54:52 IST" name="testEnhancedLogin" description="Verify login with enhanced framework features" finished-at="2025-10-10T11:54:54 IST" duration-ms="2033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEnhancedLogin -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@6b63abdc]" started-at="2025-10-03T23:55:40 IST" name="teardown" finished-at="2025-10-03T23:55:41 IST" duration-ms="681" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@2fe2965c]" started-at="2025-10-10T11:54:54 IST" name="teardown" finished-at="2025-10-10T11:54:55 IST" duration-ms="698" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEnhancedLogin status=SUCCESS method=TC014_EnhancedLoginTest.testEnhancedLogin()[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@6b63abdc] output={null}]]]>
+                <![CDATA[[TestResult name=testEnhancedLogin status=SUCCESS method=TC014_EnhancedLoginTest.testEnhancedLogin()[pri:0, instance:com.sauceDemo.testCases.TC014_EnhancedLoginTest@2fe2965c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -728,7 +728,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC014_EnhancedLoginTest -->
       <class name="com.sauceDemo.testCases.TC001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:41:27 IST" name="setup" finished-at="2025-10-03T23:41:33 IST" duration-ms="6331" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:19 IST" name="setup" finished-at="2025-10-10T11:40:26 IST" duration-ms="6209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -747,29 +747,29 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSuccessfulLoginUser()[pri:1, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:41:33 IST" name="testSuccessfulLoginUser" description="Verify successful login with valid credentials" finished-at="2025-10-03T23:41:46 IST" duration-ms="12584" status="PASS">
+        <test-method signature="testSuccessfulLoginUser()[pri:1, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:26 IST" name="testSuccessfulLoginUser" description="Verify successful login with valid credentials" finished-at="2025-10-10T11:40:40 IST" duration-ms="14066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulLoginUser -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:41:46 IST" name="teardown" finished-at="2025-10-03T23:41:47 IST" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:40 IST" name="teardown" finished-at="2025-10-10T11:40:41 IST" duration-ms="900" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSuccessfulLoginUser status=SUCCESS method=TC001_LoginTest.testSuccessfulLoginUser()[pri:1, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessfulLoginUser status=SUCCESS method=TC001_LoginTest.testSuccessfulLoginUser()[pri:1, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:41:47 IST" name="setup" finished-at="2025-10-03T23:41:49 IST" duration-ms="2836" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:41 IST" name="setup" finished-at="2025-10-10T11:40:43 IST" duration-ms="2212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,29 +788,29 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginProblemUser()[pri:2, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:41:49 IST" name="testLoginProblemUser" description="Verify login with problem user credentials" finished-at="2025-10-03T23:42:01 IST" duration-ms="11973" status="PASS">
+        <test-method signature="testLoginProblemUser()[pri:2, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:43 IST" name="testLoginProblemUser" description="Verify login with problem user credentials" finished-at="2025-10-10T11:40:56 IST" duration-ms="12442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginProblemUser -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:42:01 IST" name="teardown" finished-at="2025-10-03T23:42:02 IST" duration-ms="870" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:56 IST" name="teardown" finished-at="2025-10-10T11:40:57 IST" duration-ms="793" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginProblemUser status=SUCCESS method=TC001_LoginTest.testLoginProblemUser()[pri:2, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginProblemUser status=SUCCESS method=TC001_LoginTest.testLoginProblemUser()[pri:2, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:42:02 IST" name="setup" finished-at="2025-10-03T23:42:05 IST" duration-ms="2778" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:57 IST" name="setup" finished-at="2025-10-10T11:40:59 IST" duration-ms="2126" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -829,22 +829,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginPerformanceGlitchUser()[pri:3, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:42:05 IST" name="testLoginPerformanceGlitchUser" description="Verify login with performance glitch user credentials" finished-at="2025-10-03T23:42:22 IST" duration-ms="17063" status="PASS">
+        <test-method signature="testLoginPerformanceGlitchUser()[pri:3, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:40:59 IST" name="testLoginPerformanceGlitchUser" description="Verify login with performance glitch user credentials" finished-at="2025-10-10T11:41:16 IST" duration-ms="17164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPerformanceGlitchUser -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a]" started-at="2025-10-03T23:42:22 IST" name="teardown" finished-at="2025-10-03T23:42:23 IST" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a]" started-at="2025-10-10T11:41:16 IST" name="teardown" finished-at="2025-10-10T11:41:17 IST" duration-ms="725" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPerformanceGlitchUser status=SUCCESS method=TC001_LoginTest.testLoginPerformanceGlitchUser()[pri:3, instance:com.sauceDemo.testCases.TC001_LoginTest@518cf84a] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPerformanceGlitchUser status=SUCCESS method=TC001_LoginTest.testLoginPerformanceGlitchUser()[pri:3, instance:com.sauceDemo.testCases.TC001_LoginTest@53e3a87a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -853,7 +853,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC001_LoginTest -->
       <class name="com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@14f3c6fc]" started-at="2025-10-03T23:54:12 IST" name="setup" finished-at="2025-10-03T23:54:15 IST" duration-ms="2481" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@11a00961]" started-at="2025-10-10T11:53:27 IST" name="setup" finished-at="2025-10-10T11:53:30 IST" duration-ms="2312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -872,22 +872,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demonstrateWebDriverUtils()[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@14f3c6fc]" started-at="2025-10-03T23:54:15 IST" name="demonstrateWebDriverUtils" description="Demonstrate usage of custom WebDriver utility methods." finished-at="2025-10-03T23:54:49 IST" duration-ms="34078" status="PASS">
+        <test-method signature="demonstrateWebDriverUtils()[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@11a00961]" started-at="2025-10-10T11:53:30 IST" name="demonstrateWebDriverUtils" description="Demonstrate usage of custom WebDriver utility methods." finished-at="2025-10-10T11:54:05 IST" duration-ms="34961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demonstrateWebDriverUtils -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@14f3c6fc]" started-at="2025-10-03T23:54:49 IST" name="teardown" finished-at="2025-10-03T23:54:50 IST" duration-ms="822" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@11a00961]" started-at="2025-10-10T11:54:05 IST" name="teardown" finished-at="2025-10-10T11:54:06 IST" duration-ms="851" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demonstrateWebDriverUtils status=SUCCESS method=TC012_WebDriverUtilsDemoTest.demonstrateWebDriverUtils()[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@14f3c6fc] output={null}]]]>
+                <![CDATA[[TestResult name=demonstrateWebDriverUtils status=SUCCESS method=TC012_WebDriverUtilsDemoTest.demonstrateWebDriverUtils()[pri:0, instance:com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest@11a00961] output={null}]]]>
               </value>
             </param>
           </params>
@@ -896,7 +896,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC012_WebDriverUtilsDemoTest -->
       <class name="com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@203c20cf]" started-at="2025-10-03T23:52:23 IST" name="setup" finished-at="2025-10-03T23:52:26 IST" duration-ms="3010" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@a20b94b]" started-at="2025-10-10T11:51:37 IST" name="setup" finished-at="2025-10-10T11:51:40 IST" duration-ms="2525" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -915,22 +915,22 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc010_verifyPurchaseFlowWithBuilderData()[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@203c20cf]" started-at="2025-10-03T23:52:26 IST" name="tc010_verifyPurchaseFlowWithBuilderData" description="Verify end-to-end purchase flow using Test Data Builder for CheckoutInfo." finished-at="2025-10-03T23:53:20 IST" duration-ms="54361" status="PASS">
+        <test-method signature="tc010_verifyPurchaseFlowWithBuilderData()[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@a20b94b]" started-at="2025-10-10T11:51:40 IST" name="tc010_verifyPurchaseFlowWithBuilderData" description="Verify end-to-end purchase flow using Test Data Builder for CheckoutInfo." finished-at="2025-10-10T11:52:35 IST" duration-ms="55517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc010_verifyPurchaseFlowWithBuilderData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@203c20cf]" started-at="2025-10-03T23:53:20 IST" name="teardown" finished-at="2025-10-03T23:53:21 IST" duration-ms="817" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@a20b94b]" started-at="2025-10-10T11:52:35 IST" name="teardown" finished-at="2025-10-10T11:52:36 IST" duration-ms="895" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc010_verifyPurchaseFlowWithBuilderData status=SUCCESS method=TC010_BuilderPatternCheckoutTest.tc010_verifyPurchaseFlowWithBuilderData()[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@203c20cf] output={null}]]]>
+                <![CDATA[[TestResult name=tc010_verifyPurchaseFlowWithBuilderData status=SUCCESS method=TC010_BuilderPatternCheckoutTest.tc010_verifyPurchaseFlowWithBuilderData()[pri:0, instance:com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest@a20b94b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -939,7 +939,7 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC010_BuilderPatternCheckoutTest -->
       <class name="com.sauceDemo.testCases.TC005_RetryAnalyzerTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:44:54 IST" name="setup" finished-at="2025-10-03T23:44:57 IST" duration-ms="2856" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:43:46 IST" name="setup" finished-at="2025-10-10T11:43:48 IST" duration-ms="2252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -958,14 +958,14 @@ at com.sauceDemo.testCases.TC011_CustomExceptionDemoTest.demonstrateCustomExcept
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:44:57 IST" name="testFlakyLoginAttempt" description="Demonstrates RetryAnalyzer functionality - designed to fail then pass" finished-at="2025-10-03T23:45:09 IST" duration-ms="12015" status="SKIP">
+        <test-method retried="true" signature="testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:43:48 IST" name="testFlakyLoginAttempt" description="Demonstrates RetryAnalyzer functionality - designed to fail then pass" finished-at="2025-10-10T11:44:00 IST" duration-ms="12195" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Simulating a transient failure. This test should be retried!]]>
@@ -1007,18 +1007,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlakyLoginAttempt -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:45:09 IST" name="teardown" finished-at="2025-10-03T23:45:10 IST" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:44:00 IST" name="teardown" finished-at="2025-10-10T11:44:01 IST" duration-ms="827" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFlakyLoginAttempt status=SKIP method=TC005_RetryAnalyzerTest.testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1] output={null}]]]>
+                <![CDATA[[TestResult name=testFlakyLoginAttempt status=SKIP method=TC005_RetryAnalyzerTest.testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:45:10 IST" name="setup" finished-at="2025-10-03T23:45:13 IST" duration-ms="2921" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:44:01 IST" name="setup" finished-at="2025-10-10T11:44:03 IST" duration-ms="2194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1037,14 +1037,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:45:13 IST" name="testFlakyLoginAttempt" description="Demonstrates RetryAnalyzer functionality - designed to fail then pass" finished-at="2025-10-03T23:45:25 IST" duration-ms="12019" status="FAIL">
+        <test-method signature="testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:44:03 IST" name="testFlakyLoginAttempt" description="Demonstrates RetryAnalyzer functionality - designed to fail then pass" finished-at="2025-10-10T11:44:16 IST" duration-ms="12285" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Simulating a transient failure. This test should be retried!]]>
@@ -1086,11 +1086,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlakyLoginAttempt -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1]" started-at="2025-10-03T23:45:25 IST" name="teardown" finished-at="2025-10-03T23:45:26 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae]" started-at="2025-10-10T11:44:16 IST" name="teardown" finished-at="2025-10-10T11:44:17 IST" duration-ms="845" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFlakyLoginAttempt status=FAILURE method=TC005_RetryAnalyzerTest.testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@236134a1] output={null}]]]>
+                <![CDATA[[TestResult name=testFlakyLoginAttempt status=FAILURE method=TC005_RetryAnalyzerTest.testFlakyLoginAttempt()[pri:1, instance:com.sauceDemo.testCases.TC005_RetryAnalyzerTest@6f3f0fae] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1099,7 +1099,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC005_RetryAnalyzerTest -->
       <class name="com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@1a28aef1]" started-at="2025-10-03T23:51:13 IST" name="setup" finished-at="2025-10-03T23:51:16 IST" duration-ms="2723" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@3e1624c7]" started-at="2025-10-10T11:50:24 IST" name="setup" finished-at="2025-10-10T11:50:26 IST" duration-ms="2367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1118,22 +1118,22 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPurchaseFlowWithFakerData()[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@1a28aef1]" started-at="2025-10-03T23:51:16 IST" name="verifyPurchaseFlowWithFakerData" description="Verify end-to-end purchase flow using dynamically generated checkout information." finished-at="2025-10-03T23:52:22 IST" duration-ms="66078" status="PASS">
+        <test-method signature="verifyPurchaseFlowWithFakerData()[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@3e1624c7]" started-at="2025-10-10T11:50:26 IST" name="verifyPurchaseFlowWithFakerData" description="Verify end-to-end purchase flow using dynamically generated checkout information." finished-at="2025-10-10T11:51:36 IST" duration-ms="70420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithFakerData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@1a28aef1]" started-at="2025-10-03T23:52:22 IST" name="teardown" finished-at="2025-10-03T23:52:23 IST" duration-ms="860" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@3e1624c7]" started-at="2025-10-10T11:51:36 IST" name="teardown" finished-at="2025-10-10T11:51:37 IST" duration-ms="834" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithFakerData status=SUCCESS method=TC009_DynamicCheckoutInfoTest.verifyPurchaseFlowWithFakerData()[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@1a28aef1] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithFakerData status=SUCCESS method=TC009_DynamicCheckoutInfoTest.verifyPurchaseFlowWithFakerData()[pri:0, instance:com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest@3e1624c7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1142,7 +1142,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC009_DynamicCheckoutInfoTest -->
       <class name="com.sauceDemo.testCases.TC008_PurchaseFlowJson">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:46:51 IST" name="setup" finished-at="2025-10-03T23:46:55 IST" duration-ms="3389" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:45:40 IST" name="setup" finished-at="2025-10-10T11:45:49 IST" duration-ms="8675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1161,14 +1161,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:46:55 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-03T23:47:41 IST" duration-ms="46033" status="PASS">
+        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:45:49 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-10T11:46:38 IST" duration-ms="49139" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1184,18 +1184,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithDynamicData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:47:41 IST" name="teardown" finished-at="2025-10-03T23:47:42 IST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:46:38 IST" name="teardown" finished-at="2025-10-10T11:46:39 IST" duration-ms="853" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:47:42 IST" name="setup" finished-at="2025-10-03T23:47:44 IST" duration-ms="2942" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:46:39 IST" name="setup" finished-at="2025-10-10T11:46:42 IST" duration-ms="3699" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1214,14 +1214,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:47:44 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-03T23:48:29 IST" duration-ms="44408" status="PASS">
+        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:46:42 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-10T11:47:31 IST" duration-ms="48810" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1237,18 +1237,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithDynamicData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:48:29 IST" name="teardown" finished-at="2025-10-03T23:48:30 IST" duration-ms="826" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:47:31 IST" name="teardown" finished-at="2025-10-10T11:47:32 IST" duration-ms="871" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:48:30 IST" name="setup" finished-at="2025-10-03T23:48:32 IST" duration-ms="2587" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:47:32 IST" name="setup" finished-at="2025-10-10T11:47:34 IST" duration-ms="2483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1267,14 +1267,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:48:32 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-03T23:48:57 IST" duration-ms="24454" status="PASS">
+        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:47:34 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-10T11:48:03 IST" duration-ms="28793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1290,18 +1290,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithDynamicData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:48:57 IST" name="teardown" finished-at="2025-10-03T23:48:58 IST" duration-ms="807" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:48:03 IST" name="teardown" finished-at="2025-10-10T11:48:04 IST" duration-ms="885" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SUCCESS method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:48:58 IST" name="setup" finished-at="2025-10-03T23:49:00 IST" duration-ms="2895" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:48:04 IST" name="setup" finished-at="2025-10-10T11:48:07 IST" duration-ms="2760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1320,14 +1320,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:49:00 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-03T23:50:04 IST" duration-ms="63781" status="SKIP">
+        <test-method retried="true" signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:48:07 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-10T11:49:15 IST" duration-ms="67752" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1383,18 +1383,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithDynamicData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:50:04 IST" name="teardown" finished-at="2025-10-03T23:50:05 IST" duration-ms="818" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:49:15 IST" name="teardown" finished-at="2025-10-10T11:49:15 IST" duration-ms="861" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SKIP method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=SKIP method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:50:05 IST" name="setup" finished-at="2025-10-03T23:50:08 IST" duration-ms="2977" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:49:15 IST" name="setup" finished-at="2025-10-10T11:49:18 IST" duration-ms="2278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1413,14 +1413,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:50:08 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-03T23:51:12 IST" duration-ms="63840" status="FAIL">
+        <test-method signature="verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:49:18 IST" name="verifyPurchaseFlowWithDynamicData" description="Verify end-to-end purchase flow with dynamic product and checkout data." data-provider="purchaseScenarios" finished-at="2025-10-10T11:50:22 IST" duration-ms="64720" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1476,11 +1476,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseFlowWithDynamicData -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59]" started-at="2025-10-03T23:51:12 IST" name="teardown" finished-at="2025-10-03T23:51:13 IST" duration-ms="827" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d]" started-at="2025-10-10T11:50:23 IST" name="teardown" finished-at="2025-10-10T11:50:24 IST" duration-ms="863" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=FAILURE method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@24e08d59] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPurchaseFlowWithDynamicData status=FAILURE method=TC008_PurchaseFlowJson.verifyPurchaseFlowWithDynamicData(java.lang.String,com.sauceDemo.pojoClasses.PurchaseScenario)[pri:0, instance:com.sauceDemo.testCases.TC008_PurchaseFlowJson@4b54af3d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1489,7 +1489,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC008_PurchaseFlowJson -->
       <class name="com.sauceDemo.testCases.TC003_CheckoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:42:57 IST" name="setup" finished-at="2025-10-03T23:42:59 IST" duration-ms="2747" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:41:50 IST" name="setup" finished-at="2025-10-10T11:41:52 IST" duration-ms="2565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1508,33 +1508,33 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:42:59 IST" name="loginAndAddProduct" finished-at="2025-10-03T23:43:11 IST" duration-ms="12092" status="PASS">
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:41:52 IST" name="loginAndAddProduct" finished-at="2025-10-10T11:42:05 IST" duration-ms="12917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndAddProduct -->
-        <test-method signature="testSuccessfulProductCheckout()[pri:1, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:43:11 IST" name="testSuccessfulProductCheckout" description="Verify successful product checkout flow" finished-at="2025-10-03T23:43:54 IST" duration-ms="42932" status="PASS">
+        <test-method signature="testSuccessfulProductCheckout()[pri:1, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:42:05 IST" name="testSuccessfulProductCheckout" description="Verify successful product checkout flow" finished-at="2025-10-10T11:42:48 IST" duration-ms="42800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulProductCheckout -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:43:54 IST" name="teardown" finished-at="2025-10-03T23:43:55 IST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:42:48 IST" name="teardown" finished-at="2025-10-10T11:42:49 IST" duration-ms="843" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSuccessfulProductCheckout status=SUCCESS method=TC003_CheckoutTest.testSuccessfulProductCheckout()[pri:1, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessfulProductCheckout status=SUCCESS method=TC003_CheckoutTest.testSuccessfulProductCheckout()[pri:1, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:43:55 IST" name="setup" finished-at="2025-10-03T23:43:58 IST" duration-ms="2508" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:42:49 IST" name="setup" finished-at="2025-10-10T11:42:51 IST" duration-ms="2166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1553,26 +1553,26 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:43:58 IST" name="loginAndAddProduct" finished-at="2025-10-03T23:44:10 IST" duration-ms="12087" status="PASS">
+        <test-method is-config="true" signature="loginAndAddProduct()[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:42:51 IST" name="loginAndAddProduct" finished-at="2025-10-10T11:43:04 IST" duration-ms="13120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndAddProduct -->
-        <test-method signature="testCancelCheckoutFromInformationPage()[pri:2, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:44:10 IST" name="testCancelCheckoutFromInformationPage" description="Verify cancelling checkout from information page" finished-at="2025-10-03T23:44:31 IST" duration-ms="20880" status="PASS">
+        <test-method signature="testCancelCheckoutFromInformationPage()[pri:2, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:43:04 IST" name="testCancelCheckoutFromInformationPage" description="Verify cancelling checkout from information page" finished-at="2025-10-10T11:43:25 IST" duration-ms="20771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCancelCheckoutFromInformationPage -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4]" started-at="2025-10-03T23:44:31 IST" name="teardown" finished-at="2025-10-03T23:44:32 IST" duration-ms="838" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872]" started-at="2025-10-10T11:43:25 IST" name="teardown" finished-at="2025-10-10T11:43:26 IST" duration-ms="711" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCancelCheckoutFromInformationPage status=SUCCESS method=TC003_CheckoutTest.testCancelCheckoutFromInformationPage()[pri:2, instance:com.sauceDemo.testCases.TC003_CheckoutTest@b18c4] output={null}]]]>
+                <![CDATA[[TestResult name=testCancelCheckoutFromInformationPage status=SUCCESS method=TC003_CheckoutTest.testCancelCheckoutFromInformationPage()[pri:2, instance:com.sauceDemo.testCases.TC003_CheckoutTest@1d96d872] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1581,7 +1581,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC003_CheckoutTest -->
       <class name="com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest">
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:32 IST" name="setup" finished-at="2025-10-03T23:44:34 IST" duration-ms="2674" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:26 IST" name="setup" finished-at="2025-10-10T11:43:28 IST" duration-ms="2153" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1600,14 +1600,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:34 IST" name="testInvalidLoginForScreenshot" description="Verify that a screenshot is taken on failed login due to incorrect credentials" finished-at="2025-10-03T23:44:36 IST" duration-ms="2102" status="SKIP">
+        <test-method retried="true" signature="testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:28 IST" name="testInvalidLoginForScreenshot" description="Verify that a screenshot is taken on failed login due to incorrect credentials" finished-at="2025-10-10T11:43:30 IST" duration-ms="2296" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]]]>
@@ -1653,18 +1653,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLoginForScreenshot -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:36 IST" name="teardown" finished-at="2025-10-03T23:44:37 IST" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:30 IST" name="teardown" finished-at="2025-10-10T11:43:31 IST" duration-ms="711" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLoginForScreenshot status=SKIP method=TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLoginForScreenshot status=SKIP method=TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:37 IST" name="setup" finished-at="2025-10-03T23:44:40 IST" duration-ms="2881" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:31 IST" name="setup" finished-at="2025-10-10T11:43:33 IST" duration-ms="2098" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1683,14 +1683,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:40 IST" name="testInvalidLoginForScreenshot" description="Verify that a screenshot is taken on failed login due to incorrect credentials" finished-at="2025-10-03T23:44:42 IST" duration-ms="1850" status="FAIL">
+        <test-method signature="testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:33 IST" name="testInvalidLoginForScreenshot" description="Verify that a screenshot is taken on failed login due to incorrect credentials" finished-at="2025-10-10T11:43:35 IST" duration-ms="2180" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error message for invalid login is incorrect. expected [Epic sadface: This is an incorrect error message to force failure] but found [Epic sadface: Username and password do not match any user in this service]]]>
@@ -1736,18 +1736,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLoginForScreenshot -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:42 IST" name="teardown" finished-at="2025-10-03T23:44:43 IST" duration-ms="745" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:35 IST" name="teardown" finished-at="2025-10-10T11:43:36 IST" duration-ms="680" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLoginForScreenshot status=FAILURE method=TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLoginForScreenshot status=FAILURE method=TC004_FailedLoginScreenshotTest.testInvalidLoginForScreenshot()[pri:1, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:43 IST" name="setup" finished-at="2025-10-03T23:44:46 IST" duration-ms="2915" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:36 IST" name="setup" finished-at="2025-10-10T11:43:38 IST" duration-ms="2197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1766,14 +1766,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:46 IST" name="testLockedOutUserLoginForScreenshot" description="Verify that a screenshot is taken when a locked out user tries to login" finished-at="2025-10-03T23:44:48 IST" duration-ms="1968" status="SKIP">
+        <test-method retried="true" signature="testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:38 IST" name="testLockedOutUserLoginForScreenshot" description="Verify that a screenshot is taken when a locked out user tries to login" finished-at="2025-10-10T11:43:40 IST" duration-ms="2074" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]]]>
@@ -1819,18 +1819,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLockedOutUserLoginForScreenshot -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:48 IST" name="teardown" finished-at="2025-10-03T23:44:48 IST" duration-ms="701" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:40 IST" name="teardown" finished-at="2025-10-10T11:43:41 IST" duration-ms="661" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLockedOutUserLoginForScreenshot status=SKIP method=TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168] output={null}]]]>
+                <![CDATA[[TestResult name=testLockedOutUserLoginForScreenshot status=SKIP method=TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:48 IST" name="setup" finished-at="2025-10-03T23:44:51 IST" duration-ms="2872" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestContext)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:41 IST" name="setup" finished-at="2025-10-10T11:43:43 IST" duration-ms="2315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1849,14 +1849,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@69c6fc5a]]>
+                <![CDATA[org.testng.TestRunner@15ed06d3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:51 IST" name="testLockedOutUserLoginForScreenshot" description="Verify that a screenshot is taken when a locked out user tries to login" finished-at="2025-10-03T23:44:53 IST" duration-ms="1796" status="FAIL">
+        <test-method signature="testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:43 IST" name="testLockedOutUserLoginForScreenshot" description="Verify that a screenshot is taken when a locked out user tries to login" finished-at="2025-10-10T11:43:45 IST" duration-ms="2117" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error message for locked out user is incorrect. expected [Epic sadface: Intentional wrong message for screenshot] but found [Epic sadface: Sorry, this user has been locked out.]]]>
@@ -1902,11 +1902,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLockedOutUserLoginForScreenshot -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168]" started-at="2025-10-03T23:44:53 IST" name="teardown" finished-at="2025-10-03T23:44:54 IST" duration-ms="689" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440]" started-at="2025-10-10T11:43:45 IST" name="teardown" finished-at="2025-10-10T11:43:46 IST" duration-ms="684" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLockedOutUserLoginForScreenshot status=FAILURE method=TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@5c748168] output={null}]]]>
+                <![CDATA[[TestResult name=testLockedOutUserLoginForScreenshot status=FAILURE method=TC004_FailedLoginScreenshotTest.testLockedOutUserLoginForScreenshot()[pri:2, instance:com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest@2c708440] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1914,6 +1914,6 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.sauceDemo.testCases.TC004_FailedLoginScreenshotTest -->
-    </test> <!-- EDGE Standard Tests -->
+    </test> <!-- Chrome Standard Tests -->
   </suite> <!-- SauceDemo Automation Suite -->
 </testng-results>
